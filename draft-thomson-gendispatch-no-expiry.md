@@ -5,7 +5,7 @@ date: {DATE}
 category: bcp
 area: General
 workgroup: GENDISPATCH
-updates: 2418
+updates: 2026, 2418
 
 stand_alone: yes
 pi: [toc, sortrefs, symrefs, docmapping]
@@ -24,7 +24,7 @@ informative:
 
 The long-standing insistence that Internet-Drafts carry expiration dates is a
 concept that is no longer necessary.  This document removes requirements for
-expiration for Internet-Drafts from RFC 2418/BCP 25.
+expiration for Internet-Drafts from RFC 2026/BCP 9 and RFC 2418/BCP 25.
 
 
 --- middle
@@ -64,7 +64,7 @@ OLD:
   other than as "work in progress."
 
 NEW:
- 
+
 > Internet-Drafts are draft documents that may be updated, replaced, or
   obsoleted by other documents at any time. It is inappropriate to use
   Internet-Drafts as reference material or to cite them other than as "work in
@@ -73,7 +73,8 @@ NEW:
 Creating a revision to the I-D Guidelines will be necessary to remove references
 to expiration.
 
-This document updates RFC 2418 {{!WG=RFC2418}} to remove a single mention of
+This document updates RFC 2026 {{!STD=RFC2026}} to remove the second paragraph
+of Section 2.2 and RFC 2418 {{!WG=RFC2418}} to remove a single mention of
 expiration from Section 7.2.
 
 
