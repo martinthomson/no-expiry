@@ -1,5 +1,6 @@
 ---
-title: "Internet-Drafts Don't Expire"
+title: "Removing Expiration Notices from Internet-Drafts"
+abbrev: Drafts Aren't Milk
 docname: draft-thomson-gendispatch-no-expiry-latest
 date: {DATE}
 category: bcp
@@ -22,9 +23,9 @@ informative:
 
 --- abstract
 
-The long-standing insistence that Internet-Drafts carry expiration dates is a
-concept that is no longer necessary.  This document removes requirements for
-expiration for Internet-Drafts from RFC 2026/BCP 9 and RFC 2418/BCP 25.
+The long-standing policy of requiring that Internet-Drafts bear an expiration
+date is no longer necessary.  This document removes requirements for expiration
+for Internet-Drafts from RFC 2026/BCP 9 and RFC 2418/BCP 25.
 
 
 --- middle
@@ -32,7 +33,7 @@ expiration for Internet-Drafts from RFC 2026/BCP 9 and RFC 2418/BCP 25.
 # Introduction
 
 The [I-D Guidelines](https://www.ietf.org/standards/ids/guidelines/) declares
-that Internet Drafts expire 185 days after their posting unless replaced or
+that Internet-Drafts expire 185 days after their posting unless replaced or
 under a range of special conditions, such as when the document is under IESG
 review.
 
@@ -76,6 +77,26 @@ to expiration.
 This document updates RFC 2026 {{!STD=RFC2026}} to remove the second paragraph
 of Section 2.2 and RFC 2418 {{!WG=RFC2418}} to remove a single mention of
 expiration from Section 7.2.
+
+Other than these specific changes, both RFC 2026 and RFC 2418 refer to
+expiration of drafts.  With this change, this is understood to apply to drafts
+that are marked as "dead" in tooling.
+
+
+# Replacement Procedures
+
+The expiration of a draft is intended to ensure that the topic is disqualified
+from consideration and discussion.  At the same time, updating a draft
+indicates continued interest from the authors.
+
+Working Groups chairs might choose to concentrate efforts on drafts that have
+been recently updated.  For instance, when setting an agenda for a session,
+chairs might give precedence to documents that have been updated since the
+preceding session.
+
+Expiration has also been used as a reminder to authors to update documents.  A
+substitute for expiration reminders might be to provide a note in advance of
+planned sessions.
 
 
 # Security and Privacy Considerations
