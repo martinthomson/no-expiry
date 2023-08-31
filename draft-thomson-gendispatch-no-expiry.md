@@ -8,6 +8,7 @@ area: General
 workgroup: GENDISPATCH
 updates: 2026, 2418
 ipr: trust200902
+submissionType: IETF
 
 stand_alone: yes
 pi: [toc, sortrefs, symrefs, docmapping]
@@ -18,6 +19,11 @@ author:
     name: Martin Thomson
     org: Mozilla
     email: mt@lowentropy.net
+  -
+    ins: P. Hoffman
+    name: Paul Hoffman
+    org: ICANN
+    email: paul.hoffman@icann.org
 
 normative:
 informative:
