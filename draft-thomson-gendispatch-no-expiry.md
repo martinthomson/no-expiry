@@ -28,6 +28,11 @@ author:
     name: Martin Thomson
     org: Mozilla
     email: mt@lowentropy.net
+  -
+    ins: P. Hoffman
+    name: Paul Hoffman
+    org: ICANN
+    email: paul.hoffman@icann.org
 
 normative:
   IDCG:
