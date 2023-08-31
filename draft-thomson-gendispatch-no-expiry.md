@@ -2,15 +2,25 @@
 title: "Removing Expiration Notices from Internet-Drafts"
 abbrev: Drafts Aren't Milk
 docname: draft-thomson-gendispatch-no-expiry-latest
-date: {DATE}
+date:
 category: bcp
-area: General
-workgroup: GENDISPATCH
+# area: General
+# workgroup: GENDISPATCH
 updates: 2026, 2418
-ipr: trust200902
 
-stand_alone: yes
-pi: [toc, sortrefs, symrefs, docmapping]
+submissiontype: IETF
+number:
+consensus: true
+v: 3
+keyword:
+ - dead mans switch
+venue:
+#  group: WG
+#  type: Working Group
+#  mail: WG@example.com
+#  arch: https://example.com/WG
+  github: "martinthomson/no-expiry"
+  latest: "https://martinthomson.github.io/no-expiry/draft-thomson-gendispatch-no-expiry.html"
 
 author:
   -
