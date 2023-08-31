@@ -4,8 +4,8 @@ abbrev: Drafts Aren't Milk
 docname: draft-thomson-gendispatch-no-expiry-latest
 date:
 category: bcp
-# area: General
-# workgroup: GENDISPATCH
+area: "General"
+workgroup: "General Area Dispatch"
 updates: 2026, 2418
 
 submissiontype: IETF
@@ -15,10 +15,10 @@ v: 3
 keyword:
  - dead mans switch
 venue:
-#  group: WG
-#  type: Working Group
-#  mail: WG@example.com
-#  arch: https://example.com/WG
+  group: "General Area Dispatch"
+  type: "Working Group"
+  mail: "gendispatch@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/gendispatch/"
   github: "martinthomson/no-expiry"
   latest: "https://martinthomson.github.io/no-expiry/draft-thomson-gendispatch-no-expiry.html"
 
