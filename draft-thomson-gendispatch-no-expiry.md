@@ -30,6 +30,11 @@ author:
     email: mt@lowentropy.net
 
 normative:
+  IDCG:
+    title: "Content guidelines overview"
+    target: https://authors.ietf.org/en/content-guidelines-overview
+    date: 2022-06-01
+
 informative:
 
 --- abstract
@@ -43,10 +48,12 @@ for Internet-Drafts from RFC 2026/BCP 9 and RFC 2418/BCP 25.
 
 # Introduction
 
-The [I-D Guidelines](https://www.ietf.org/standards/ids/guidelines/) declares
-that Internet-Drafts expire 185 days after their posting unless replaced or
-under a range of special conditions, such as when the document is under IESG
-review.
+The Content Guidelines for Internet Drafts {{IDCG}} requires that
+Internet-Drafts include an expiration statement.  Tooling and IETF practice
+insist on Internet-Drafts including an expiry date 185 days after their posting.
+After this expiration date, some systems might display an Internet-Draft
+differently or not at all, with some exceptions, such as when the document is
+under IESG review.
 
 Expiration of drafts is believed to encourage authors to update drafts that they
 wish to discuss.  Expired drafts are no longer served from the primary IETF
@@ -56,14 +63,19 @@ Copies of expired drafts are retained and can be obtained using other services.
 Expired drafts are routinely cited and referenced.  Published RFCs routinely
 include informative references to drafts, which then usually expire.
 
-Forced expiration serves no purpose that is not adequately served by the
-publication date on the document.
 
 
 # Removing Internet-Draft Expiration
 
-The date of posting for an Internet-Draft is sufficient information for readers
-to understand validity.
+Forced expiration serves no purpose that is not adequately served by the
+publication date on the document.
+
+The date of posting for an Internet-Draft is the best -- or perhaps only --
+information available that can be added to a document the time of publication
+that might help readers understand whether the content is valid.  Future events
+might invalidate the content virtually immediately; conversely, an
+Internet-Draft could also remain relevant for an arbitrarily long period of
+time.
 
 This document proposes that the "Expires:" field be removed from the header of
 submitted Internet-Drafts, and that the boilerplate be amended as follows:
@@ -82,12 +94,13 @@ NEW:
   Internet-Drafts as reference material or to cite them other than as "work in
   progress."
 
-Creating a revision to the I-D Guidelines will be necessary to remove references
-to expiration.
+Creating a revision to the Content Guidelines {{IDCG}} will be necessary to
+remove references to expiration.
 
 This document updates RFC 2026 {{!STD=RFC2026}} to remove the second paragraph
-of Section 2.2 and RFC 2418 {{!WG=RFC2418}} to remove a single mention of
-expiration from Section 7.2.
+of <xref format="none" section="2.2" target="STD">Section 2.2</xref> and RFC
+2418 {{!WG=RFC2418}} to remove a single mention of expiration from <xref
+format="none" section="7.2" target="WG">Section 7.2</xref>.
 
 Other than these specific changes, both RFC 2026 and RFC 2418 refer to
 expiration of drafts.  With this change, this is understood to apply to drafts
@@ -107,7 +120,9 @@ preceding session.
 
 Expiration has also been used as a reminder to authors to update documents.  A
 substitute for expiration reminders might be to provide a note in advance of
-planned sessions.
+planned sessions.  For instance, for an upcoming session N+1, a reminder might
+be issued for drafts that have not been updated in the interval between session
+N and session N+1, but were updated between session N-1 and session N.
 
 
 # Security and Privacy Considerations
