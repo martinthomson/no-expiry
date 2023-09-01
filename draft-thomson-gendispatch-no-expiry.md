@@ -111,6 +111,15 @@ Other than these specific changes, both RFC 2026 and RFC 2418 refer to
 expiration of drafts.  With this change, this is understood to apply to drafts
 that are marked as "dead" in tooling.
 
+# Referencing Internet-Drafts
+
+Internet-Drafts should always be referenced including the two-digit version number of the draft.
+Internet-Drafts should always be referenced from the IETF Datatracker.
+It is possible to reference the latest version of a draft by excluding the two-digit version number,
+but this can lead readers of the reference to not know which version of the draft is being referenced.
+
+\[\[ More description of why goes here, and also in the Security Considerations. \]\]
+
 
 # Replacement Procedures
 
