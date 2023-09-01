@@ -67,7 +67,7 @@ servers.
 Copies of expired drafts are retained and can be obtained using other services.
 Expired drafts are routinely cited and referenced.  Published RFCs routinely
 include informative references to drafts, which then usually expire.
-
+Many IANA registries refer to expired drafts.
 
 
 # Removing Internet-Draft Expiration
@@ -95,8 +95,8 @@ OLD:
 NEW:
 
 > Internet-Drafts are draft documents that may be updated, replaced, or
-  obsoleted by other documents at any time. It is inappropriate to use
-  Internet-Drafts as reference material or to cite them other than as "work in
+  obsoleted by other documents at any time. It is inappropriate to
+  cite them other than as "work in
   progress."
 
 Creating a revision to the Content Guidelines {{IDCG}} will be necessary to
@@ -118,7 +118,7 @@ The expiration of a draft is intended to ensure that the topic is disqualified
 from consideration and discussion.  At the same time, updating a draft
 indicates continued interest from the authors.
 
-Working Groups chairs might choose to concentrate efforts on drafts that have
+Working group chairs might choose to concentrate efforts on drafts that have
 been recently updated.  For instance, when setting an agenda for a session,
 chairs might give precedence to documents that have been updated since the
 preceding session.
