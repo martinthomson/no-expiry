@@ -102,10 +102,11 @@ NEW:
 Creating a revision to the Content Guidelines {{IDCG}} will be necessary to
 remove references to expiration.
 
-This document updates RFC 2026 {{!STD=RFC2026}} to remove the second paragraph
-of Section <xref format="none" section="2.2" sectionFormat="bare" target="STD"/> and RFC
-2418 {{!WG=RFC2418}} to remove a single mention of expiration from Section <xref
-format="none" section="7.2" sectionFormat="bare" target="WG"/>.
+This document updates RFC 2026 {{!STD-PROCESS=RFC2026}} to remove the second
+paragraph of Section <xref format="none" section="2.2" sectionFormat="bare"
+target="STD-PROCESS"/> and RFC 2418 {{!WG=RFC2418}} to remove a single mention
+of expiration from Section <xref format="none" section="7.2"
+sectionFormat="bare" target="WG"/>.
 
 Other than these specific changes, both RFC 2026 and RFC 2418 refer to
 expiration of drafts.  With this change, this is understood to apply to drafts
