@@ -96,8 +96,8 @@ NEW:
 
 > Internet-Drafts are draft documents that may be updated, replaced, or
   obsoleted by other documents at any time. It is inappropriate to
-  cite them other than as "work in
-  progress."
+  cite them other than as "work in progress."  Drafts that have not been
+  updated after many months may have been abandoned.
 
 Creating a revision to the Content Guidelines {{IDCG}} will be necessary to
 remove references to expiration.
@@ -119,17 +119,15 @@ The expiration of a draft is intended to ensure that the topic is disqualified
 from consideration and discussion.  At the same time, updating a draft
 indicates continued interest from the authors.
 
-Working group chairs might choose to concentrate efforts on drafts that have
+People might choose to concentrate efforts on drafts that have
 been recently updated.  For instance, when setting an agenda for a session,
 chairs might give precedence to documents that have been updated since the
 preceding session.
 
-Expiration has also been used as a reminder to authors to update documents.  A
-substitute for expiration reminders might be to provide a note in advance of
-planned sessions.  For instance, for an upcoming session N+1, a reminder might
-be issued for drafts that have not been updated in the interval between session
-N and session N+1, but were updated between session N-1 and session N.
-
+Expiration has also been used as a reminder to authors to update documents.
+A standard automated mechanism MAY be implemented to remind authors and others watching
+a draft that it has not been updated for some period of time.  It is suggested
+that such reminders be sent four weeks prior to each IETF plenary meeting.
 
 # Security and Privacy Considerations
 
