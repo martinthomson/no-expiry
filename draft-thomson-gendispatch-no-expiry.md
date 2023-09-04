@@ -60,9 +60,12 @@ After this expiration date, some systems might display an Internet-Draft
 differently or not at all, with some exceptions, such as when the document is
 under IESG review.
 
-Expiration of drafts is believed to encourage authors to update drafts that they
-wish to discuss.  Expired drafts are no longer served from the primary IETF
-servers.
+Expiration is believed to prevent the use of an Internet-Draft for reference
+purposes, so that they do not become stable references in other work.
+Expiration also existed to encourage authors to update drafts that they wish to
+discuss.  Originally, expired drafts were deleted from IETF servers completely;
+more recently, expiration only caused the document to be hidden from certain
+views or searches.
 
 Copies of expired drafts are retained and can be obtained using other services.
 Expired drafts are routinely cited and referenced.  Published RFCs routinely
