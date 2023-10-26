@@ -91,15 +91,14 @@ submitted Internet-Drafts, and that the boilerplate be amended as follows:
 OLD:
 
 > Internet-Drafts are draft documents valid for a maximum of six months and may
-  be updated, replaced, or obsoleted at any time. It is inappropriate to use
-  Internet-Drafts as reference material or to cite them other than as "work in
-  progress."
+  be updated, replaced, or obsoleted by other documents at any time. It is
+  inappropriate to use Internet-Drafts as reference material or to cite them
+  other than as "work in progress."
 
 NEW:
 
 > Internet-Drafts are draft documents that may be updated, replaced, or
-  obsoleted by other documents at any time. It is inappropriate to
-  cite them other than as "work in
+  obsoleted at any time. It is inappropriate to cite them other than as "work in
   progress."
 
 Creating a revision to the Content Guidelines {{IDCG}} will be necessary to
