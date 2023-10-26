@@ -91,9 +91,9 @@ submitted Internet-Drafts, and that the boilerplate be amended as follows:
 OLD:
 
 > Internet-Drafts are draft documents valid for a maximum of six months and may
-  be updated, replaced, or obsoleted by other documents at any time. It is
-  inappropriate to use Internet-Drafts as reference material or to cite them
-  other than as "work in progress."
+  be updated, replaced, or obsoleted at any time. It is inappropriate to use
+  Internet-Drafts as reference material or to cite them other than as "work in
+  progress."
 
 NEW:
 
@@ -122,10 +122,10 @@ The expiration of a draft is intended to ensure that the topic is disqualified
 from consideration and discussion.  At the same time, updating a draft
 indicates continued interest from the authors.
 
-Working group chairs might choose to concentrate efforts on drafts that have
-been recently updated.  For instance, when setting an agenda for a session,
-chairs might give precedence to documents that have been updated since the
-preceding session.
+People might choose to concentrate their efforts on drafts that have been
+recently updated.  For instance, when setting an agenda for a session, chairs
+might give precedence to documents that have been updated since the preceding
+session.
 
 Expiration has also been used as a reminder to authors to update documents.  A
 substitute for expiration reminders might be to provide a note in advance of
