@@ -1,0 +1,488 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2023-12-05T00:51:35.837573+00:00",
+  "repo": "martinthomson/no-expiry",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 5,
+      "id": "I_kwDODRby885wBGNv",
+      "title": "Tombstones",
+      "url": "https://github.com/martinthomson/no-expiry/issues/5",
+      "state": "OPEN",
+      "author": "martinthomson",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "@sftcd suggests:\r\n\r\n> I'd suggest adding a recommendation that it'd be useful to publish a tombstone version for drafts that are no longer under consideration (at that point in time) as I do think we have a small problem with drafts that are going nowhere, but that not being visible to readers.",
+      "createdAt": "2023-09-04T01:16:28Z",
+      "updatedAt": "2023-09-04T15:49:38Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "paulehoffman",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I disagree with the recommendation. Drafts often exist for other reasons, such as to document something for an IANA registry, or to say \"I had this idea on this date, but am not pursuing it, but you might\". Those should not be overtaken by a tombstone.\r\nI'm not against authors publishing tombstones for ideas they thought were good, but then considered bad. I have done that myself. But that's quite different than \"no longer under consideration\".",
+          "createdAt": "2023-09-04T14:24:20Z",
+          "updatedAt": "2023-09-04T14:24:20Z"
+        },
+        {
+          "author": "sftcd",
+          "authorAssociation": "NONE",
+          "body": "Actually I consider adding e.g. \"I had this idea on this date, but am not pursuing it, but you might\" to a draft or abstract also makes a fine tombstone draft - IMO a tombstone draft doesn't have to be only that text. So maybe if doing something here, define the term to include both or just describe stuff without that term.",
+          "createdAt": "2023-09-04T15:00:43Z",
+          "updatedAt": "2023-09-04T15:00:43Z"
+        },
+        {
+          "author": "paulehoffman",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I like the idea of our draft adding a general definition of \"tombstone draft\", suggesting when it can be used, but not suggesting it for when an idea is simply abandoned.",
+          "createdAt": "2023-09-04T15:08:55Z",
+          "updatedAt": "2023-09-04T15:08:55Z"
+        },
+        {
+          "author": "sftcd",
+          "authorAssociation": "NONE",
+          "body": "think we might disagree a bit about what exactly to say there, but it's something that  can be sorted out later",
+          "createdAt": "2023-09-04T15:49:38Z",
+          "updatedAt": "2023-09-04T15:49:38Z"
+        }
+      ]
+    }
+  ],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDODRby885ZSTl9",
+      "title": "Early small things from Paul",
+      "url": "https://github.com/martinthomson/no-expiry/pull/1",
+      "state": "MERGED",
+      "author": "paulehoffman",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [
+        "martinthomson"
+      ],
+      "labels": [],
+      "body": "Change master to main because Martin changed the branch name but not the associated files.\r\nAdd Paul as co-author, make IETF stream",
+      "createdAt": "2023-08-31T22:57:20Z",
+      "updatedAt": "2023-08-31T23:12:50Z",
+      "baseRepository": "martinthomson/no-expiry",
+      "baseRefName": "main",
+      "baseRefOid": "91af934aa173f20b8daab78f557306e0b6872c42",
+      "headRepository": "paulehoffman/draft-thomson-gendispatch-no-expiry",
+      "headRefName": "main",
+      "headRefOid": "46741a5f3ea818196be3f9c859852ceb902bd34b",
+      "closedAt": "2023-08-31T23:12:49Z",
+      "mergedAt": "2023-08-31T23:12:49Z",
+      "mergedBy": "martinthomson",
+      "mergeCommit": {
+        "oid": "933d2af0b0a7554e96d6027187651f9d5327c2e3"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDODRby885ft_56",
+          "commit": {
+            "abbreviatedOid": "46741a5"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2023-08-31T23:12:45Z",
+          "updatedAt": "2023-08-31T23:12:45Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "id": "PR_kwDODRby885ZSV5k",
+      "title": "Updates",
+      "url": "https://github.com/martinthomson/no-expiry/pull/2",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Lots of boilerplate stuff, but also some framing tweaks.",
+      "createdAt": "2023-08-31T23:12:21Z",
+      "updatedAt": "2023-08-31T23:56:08Z",
+      "baseRepository": "martinthomson/no-expiry",
+      "baseRefName": "main",
+      "baseRefOid": "dec5f18d042724cc1ba6d6d6e54e3851db855777",
+      "headRepository": "martinthomson/no-expiry",
+      "headRefName": "updates",
+      "headRefOid": "68c0e862c68bce66438849cf434e37cc666b6144",
+      "closedAt": "2023-08-31T23:50:25Z",
+      "mergedAt": "2023-08-31T23:50:25Z",
+      "mergedBy": "paulehoffman",
+      "mergeCommit": {
+        "oid": "02f1b5791593d8c62bcfb1ebf84b32622d6ad5d2"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDODRby885ZS4XT",
+      "title": "Cleanup before -01",
+      "url": "https://github.com/martinthomson/no-expiry/pull/3",
+      "state": "MERGED",
+      "author": "paulehoffman",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Most minor, but removing \"use Internet-Drafts as reference material or \" is major. That is required because we show places that use I-Ds as reference material earlier in the draft.",
+      "createdAt": "2023-09-01T01:53:43Z",
+      "updatedAt": "2023-09-01T02:06:16Z",
+      "baseRepository": "martinthomson/no-expiry",
+      "baseRefName": "main",
+      "baseRefOid": "02f1b5791593d8c62bcfb1ebf84b32622d6ad5d2",
+      "headRepository": "paulehoffman/draft-thomson-gendispatch-no-expiry",
+      "headRefName": "main",
+      "headRefOid": "b7333648996eb59ed58c8ed87ba283d6320d0666",
+      "closedAt": "2023-09-01T02:06:16Z",
+      "mergedAt": "2023-09-01T02:06:16Z",
+      "mergedBy": "martinthomson",
+      "mergeCommit": {
+        "oid": "26c44e96461e42b75eee6cb1318ff505f7d27adc"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDODRby885fugKS",
+          "commit": {
+            "abbreviatedOid": "b733364"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "Oh, I agree with this very much.  I like it a lot.\r\n\r\nI'm sure some people will hate it, but they are wrong.",
+          "createdAt": "2023-09-01T02:06:08Z",
+          "updatedAt": "2023-09-01T02:06:08Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "id": "PR_kwDODRby885ZXlup",
+      "title": "Added section on referencing",
+      "url": "https://github.com/martinthomson/no-expiry/pull/4",
+      "state": "CLOSED",
+      "author": "paulehoffman",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "You may or may not like having this in this document. It is not crucial to the -01, but should be discussed at some point.",
+      "createdAt": "2023-09-01T19:49:25Z",
+      "updatedAt": "2023-09-01T19:59:39Z",
+      "baseRepository": "martinthomson/no-expiry",
+      "baseRefName": "main",
+      "baseRefOid": "26c44e96461e42b75eee6cb1318ff505f7d27adc",
+      "headRepository": "paulehoffman/draft-thomson-gendispatch-no-expiry",
+      "headRefName": "main",
+      "headRefOid": "ad3687ec36371d70fa44b7fdd2345dd83d5fb536",
+      "closedAt": "2023-09-01T19:59:39Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "paulehoffman",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Self-closing without merging because I should have done research first about how the Datatracker actually works. It works in ways that breaks the proposed new text.",
+          "createdAt": "2023-09-01T19:59:39Z",
+          "updatedAt": "2023-09-01T19:59:39Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 6,
+      "id": "PR_kwDODRby885Zc0nh",
+      "title": "The intent of expiration",
+      "url": "https://github.com/martinthomson/no-expiry/pull/6",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "... was primarily to avoid use as a stable reference.  Credit: @becarpenter.\r\n\r\nAnd correct the error regarding availability of drafts, which is a little more nuanced now.",
+      "createdAt": "2023-09-04T06:54:59Z",
+      "updatedAt": "2023-09-04T14:28:55Z",
+      "baseRepository": "martinthomson/no-expiry",
+      "baseRefName": "main",
+      "baseRefOid": "10be79110abe932d505299eb760921d70ae3d95e",
+      "headRepository": "martinthomson/no-expiry",
+      "headRefName": "bc-no-ref",
+      "headRefOid": "7d5a51deb05d60fc3b9a56ea25252ceba165420f",
+      "closedAt": "2023-09-04T14:28:55Z",
+      "mergedAt": "2023-09-04T14:28:55Z",
+      "mergedBy": "paulehoffman",
+      "mergeCommit": {
+        "oid": "c2d5837e5995421bb8da9ae4c4bf68284d21c31d"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 7,
+      "id": "PR_kwDODRby885Zdodf",
+      "title": "non-normative changes",
+      "url": "https://github.com/martinthomson/no-expiry/pull/7",
+      "state": "OPEN",
+      "author": "elear",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "There are two sets of changes here.\r\n\r\n1.  Remove the term \"WG chairs\" since it good be \"RG chairs\" or \"The ISE\".\r\n\r\n2. Discuss the reminder mechanism.",
+      "createdAt": "2023-09-04T09:27:08Z",
+      "updatedAt": "2023-10-26T04:45:39Z",
+      "baseRepository": "martinthomson/no-expiry",
+      "baseRefName": "main",
+      "baseRefOid": "c2d5837e5995421bb8da9ae4c4bf68284d21c31d",
+      "headRepository": "elear/no-expiry",
+      "headRefName": "patch-1",
+      "headRefOid": "e1e1c5e7ebf7dae10d51c401c8b3c7c8d55a6ffd",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "Ok, that's exactly where we disagree, and why I must continue to oppose adoption and approval.",
+          "createdAt": "2023-09-05T17:53:33Z",
+          "updatedAt": "2023-09-05T17:53:33Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDODRby885f6Y4F",
+          "commit": {
+            "abbreviatedOid": "e1e1c5e"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "Such is the problem with pull requests, I like some of this, but not all.",
+          "createdAt": "2023-09-04T09:28:10Z",
+          "updatedAt": "2023-09-04T09:28:51Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "I don't think that this is necessary to add to boilerplate.",
+              "createdAt": "2023-09-04T09:28:11Z",
+              "updatedAt": "2023-09-04T09:28:51Z"
+            },
+            {
+              "originalPosition": 16,
+              "body": "\ud83d\udc4d ",
+              "createdAt": "2023-09-04T09:28:37Z",
+              "updatedAt": "2023-09-04T09:28:51Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDODRby885f6fBZ",
+          "commit": {
+            "abbreviatedOid": "e1e1c5e"
+          },
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-09-04T09:42:45Z",
+          "updatedAt": "2023-09-04T09:42:45Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "Sorry, I forgot this in the commit message.  My point is that old drafts MAY get stale.  That is now becoming a matter of author intent.",
+              "createdAt": "2023-09-04T09:42:45Z",
+              "updatedAt": "2023-09-04T09:42:45Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDODRby885f8XIj",
+          "commit": {
+            "abbreviatedOid": "e1e1c5e"
+          },
+          "author": "paulehoffman",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-09-04T14:32:17Z",
+          "updatedAt": "2023-09-04T14:32:17Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "I'm with Martin on not including it in the boilerplate. There are many things that may have happened after many months, and \"been abandoned\" is just one of them.",
+              "createdAt": "2023-09-04T14:32:17Z",
+              "updatedAt": "2023-09-04T14:32:17Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDODRby885f9qYo",
+          "commit": {
+            "abbreviatedOid": "e1e1c5e"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-09-04T23:46:05Z",
+          "updatedAt": "2023-09-04T23:46:05Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "```suggestion\r\n  cite them other than as \"work in progress.\"\r\n```",
+              "createdAt": "2023-09-04T23:46:05Z",
+              "updatedAt": "2023-09-04T23:46:05Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDODRby885f_Klr",
+          "commit": {
+            "abbreviatedOid": "e1e1c5e"
+          },
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-09-05T07:27:29Z",
+          "updatedAt": "2023-09-05T07:27:29Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "Ok, then my request is that you continue to include the text that indicates that it may be inappropriate to cite as reference material.  Otherwise, you are entirely defeating the purpose of an Internet-Draft.",
+              "createdAt": "2023-09-05T07:27:29Z",
+              "updatedAt": "2023-09-05T07:27:29Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDODRby885gC6SU",
+          "commit": {
+            "abbreviatedOid": "e1e1c5e"
+          },
+          "author": "paulehoffman",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2023-09-05T15:51:31Z",
+          "updatedAt": "2023-09-05T15:51:31Z",
+          "comments": [
+            {
+              "originalPosition": 7,
+              "body": "We disagree here. As we point out, some drafts are indeed reference material, such when they are the source for an IANA registry entry. They can also be reference material for RFCs, such as \"this protocol is based on an idea described  in draft-someperson-sometopic, but with significant changes\".",
+              "createdAt": "2023-09-05T15:51:31Z",
+              "updatedAt": "2023-09-05T15:51:46Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "id": "PR_kwDODRby885d0nx9",
+      "title": "Two changes:",
+      "url": "https://github.com/martinthomson/no-expiry/pull/8",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "1. Trim the boilerplate further.  Updates are obviously going to cause the document to be replaced, but obsolescence can happen without a document doing it.\r\n2. Take Eliot's suggestion about \"people\" rather than WG chairs.",
+      "createdAt": "2023-10-26T04:45:43Z",
+      "updatedAt": "2023-10-26T14:30:54Z",
+      "baseRepository": "martinthomson/no-expiry",
+      "baseRefName": "main",
+      "baseRefOid": "c2d5837e5995421bb8da9ae4c4bf68284d21c31d",
+      "headRepository": "martinthomson/no-expiry",
+      "headRefName": "tweaks",
+      "headRefOid": "7ab22058746071cc80cf3496c8ff56df44d4c81b",
+      "closedAt": "2023-10-26T14:30:54Z",
+      "mergedAt": "2023-10-26T14:30:53Z",
+      "mergedBy": "martinthomson",
+      "mergeCommit": {
+        "oid": "980f49657700fa25b13f615c1e293f08f37bd89c"
+      },
+      "comments": [
+        {
+          "author": "martinthomson",
+          "authorAssociation": "OWNER",
+          "body": "Whoops",
+          "createdAt": "2023-10-26T14:28:44Z",
+          "updatedAt": "2023-10-26T14:28:44Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDODRby885lUN4_",
+          "commit": {
+            "abbreviatedOid": "3844201"
+          },
+          "author": "paulehoffman",
+          "authorAssociation": "COLLABORATOR",
+          "state": "DISMISSED",
+          "body": "The first change is wrong in that you changed the OLD text instead of the NEW text. The second change is fine. After you fix the first change, go ahead and merge.",
+          "createdAt": "2023-10-26T14:23:29Z",
+          "updatedAt": "2023-10-26T14:30:28Z",
+          "comments": []
+        }
+      ]
+    }
+  ]
+}
