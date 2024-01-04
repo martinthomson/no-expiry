@@ -47,6 +47,8 @@ informative:
 The long-standing policy of requiring that Internet-Drafts bear an expiration
 date is no longer necessary.  This document removes requirements for expiration
 for Internet-Drafts from RFC 2026/BCP 9 and RFC 2418/BCP 25.
+In place of expiration, this document introduces Internet-Drafts being labeled
+"active" and "inactive" in the IETF tooling.
 
 
 --- middle
@@ -71,6 +73,23 @@ Copies of expired drafts are retained and can be obtained using other services.
 Expired drafts are routinely cited and referenced.  Published RFCs routinely
 include informative references to drafts, which then usually expire.
 Many IANA registries refer to expired drafts.
+Thus, statements about it being inappropriate to cite drafts are incorrect and
+can lead readers not familiar with IETF processes to misunderstand how old
+drafts are actually used.
+
+This document does the following:
+
+- Updates {{!STD-PROCESS=RFC2026}} to eliminate the removal of an Internet-Draft
+when the latest version is unchanged for more than six months.
+
+- Updates {{!WG=RFC2418}} to eliminate the inclusion of an expiration date in
+Internet-Drafts.
+
+- Updates the boilerplate text for Internet-Drafts to no longer include the
+"Expires:" field.
+
+- Introduces a status for Internet-Drafts which can be set to either "active" or "inactive" in
+tooling without specifying how this is implemented.
 
 
 # Removing Internet-Draft Expiration
@@ -131,6 +150,30 @@ substitute for expiration reminders might be to provide a note in advance of
 planned sessions.  For instance, for an upcoming session N+1, a reminder might
 be issued for drafts that have not been updated in the interval between session
 N and session N+1, but were updated between session N-1 and session N.
+
+
+# Active and Inactive Status for Internet-Drafts
+
+The tooling maintained by the IETF (such as the Datatracker) can mark the latest
+version of a draft as "active" or "inactive".
+When a new version of a draft is published, it is immediately marked as "active",
+and all earlier versions of that draft are marked as "inactive".
+
+Other reasons that a draft might be marked "active" or "inactive" are open,
+but will be informed by the IETF community.
+Suggestions have already been made
+for automatically marking drafts as "inactive" after a certain period of time,
+for allowing working group chairs to control the marking for working group drafts,
+and for authors being able to change the status of their draft,
+either to mark a draft that has been overcome by events as "inactive"
+or mark a draft as "active" when there is renewed interest.
+
+
+# Referencing Internet-Drafts
+
+Documents referencing Internet-Drafts should always include the two-digit version number of the draft.
+Documents referencing Internet-Drafts should always reference using URLs for the IETF Datatracker
+because this is expected to be the most stable URL for a particular version of a draft.
 
 
 # Security and Privacy Considerations
