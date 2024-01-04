@@ -75,10 +75,11 @@ Table of Contents
    1.  Introduction
    2.  Removing Internet-Draft Expiration
    3.  Replacement Procedures
-   4.  Referencing Internet-Drafts
-   5.  Security and Privacy Considerations
-   6.  IANA Considerations
-   7.  Normative References
+   4.  Active and Inactive Status for Internet-Drafts
+   5.  Referencing Internet-Drafts
+   6.  Security and Privacy Considerations
+   7.  IANA Considerations
+   8.  Normative References
    Authors' Addresses
 
 1.  Introduction
@@ -180,7 +181,25 @@ Table of Contents
    updated in the interval between session N and session N+1, but were
    updated between session N-1 and session N.
 
-4.  Referencing Internet-Drafts
+4.  Active and Inactive Status for Internet-Drafts
+
+   The tooling maintained by the IETF (such as the Datatracker) can mark
+   the latest version of a draft as "active" or "inactive".  When a new
+   version of a draft is published, it is immediately marked as
+   "active", and all earlier versions of that draft are marked as
+   "inactive".
+
+   The mechanism that the IETF tooling will use to make and display such
+   markings is outside the scope of this document.  The tooling changes
+   for marking drafts "active" or "inactive" will be informed by the
+   IETF community.  Suggestions have already been made for automatically
+   marking drafts as "inactive" after a certain period of time, for
+   allowing working group chairs to control the marking for working
+   group drafts, and for authors being able to change the status of a
+   draft from "inactive" to "active" when they are ready to work on a
+   draft again.
+
+5.  Referencing Internet-Drafts
 
    Documents referencing Internet-Drafts should always include the two-
    digit version number of the draft.  It is possible to reference the
@@ -191,15 +210,15 @@ Table of Contents
    because this is expected to be the most stable URL for a particular
    version of a draft.
 
-5.  Security and Privacy Considerations
+6.  Security and Privacy Considerations
 
    This document has no direct implications on security or privacy.
 
-6.  IANA Considerations
+7.  IANA Considerations
 
    This document makes no request of IANA.
 
-7.  Normative References
+8.  Normative References
 
    [IDCG]     "Content guidelines overview", 1 June 2022,
               <https://authors.ietf.org/en/content-guidelines-overview>.
