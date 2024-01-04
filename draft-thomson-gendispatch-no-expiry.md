@@ -149,6 +149,15 @@ be issued for drafts that have not been updated in the interval between session
 N and session N+1, but were updated between session N-1 and session N.
 
 
+# Referencing Internet-Drafts
+
+Documents referencing Internet-Drafts should always include the two-digit version number of the draft.
+It is possible to reference the latest version of a draft by excluding the two-digit version number,
+but this can lead readers of the reference to not know which version of the draft is being referenced.
+Documents referencing Internet-Drafts should always reference using URLs for the IETF Datatracker
+because this is expected to be the most stable URL for a particular version of a draft.
+
+
 # Security and Privacy Considerations
 
 This document has no direct implications on security or privacy.
