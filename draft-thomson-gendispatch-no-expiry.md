@@ -47,6 +47,8 @@ informative:
 The long-standing policy of requiring that Internet-Drafts bear an expiration
 date is no longer necessary.  This document removes requirements for expiration
 for Internet-Drafts from RFC 2026/BCP 9 and RFC 2418/BCP 25.
+In place of expiration, this document introduces Internet-Drafts being labeled
+"active" and "inactive" in the IETF tooling.
 
 
 --- middle
@@ -71,6 +73,20 @@ Copies of expired drafts are retained and can be obtained using other services.
 Expired drafts are routinely cited and referenced.  Published RFCs routinely
 include informative references to drafts, which then usually expire.
 Many IANA registries refer to expired drafts.
+
+This document does the following:
+
+- Updates {{!STD-PROCESS=RFC2026}} to eliminate the removal of an Internet-Draft
+when the latest version is unchanged for more than six months.
+
+- Updates {{!WG=RFC2418}} to eliminate the inclusion of an exiration date in
+Internet-Drafts.
+
+- Updates the boilerplate text for Internet-Drafts to no longer include the
+"Expires:" field.
+
+- Introduces Internet-Drafts being labeled "active" and "inactive" in the
+IETF tooling. without specifying how that tooling will do so.
 
 
 # Removing Internet-Draft Expiration
