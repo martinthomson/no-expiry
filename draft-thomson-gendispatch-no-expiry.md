@@ -164,8 +164,9 @@ but will be informed by the IETF community.
 Suggestions have already been made
 for automatically marking drafts as "inactive" after a certain period of time,
 for allowing working group chairs to control the marking for working group drafts,
-and for authors being able to change the status of a draft from "inactive" to "active"
-when they are ready to work on a draft again.
+and for authors being able to change the status of their draft, 
+either to mark a draft that has been overcome by events as "inactive"
+or mark a draft as "active" when there is renewed interest.
 
 
 # Referencing Internet-Drafts
