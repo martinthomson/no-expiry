@@ -79,7 +79,7 @@ This document does the following:
 - Updates {{!STD-PROCESS=RFC2026}} to eliminate the removal of an Internet-Draft
 when the latest version is unchanged for more than six months.
 
-- Updates {{!WG=RFC2418}} to eliminate the inclusion of an exiration date in
+- Updates {{!WG=RFC2418}} to eliminate the inclusion of an expiration date in
 Internet-Drafts.
 
 - Updates the boilerplate text for Internet-Drafts to no longer include the
