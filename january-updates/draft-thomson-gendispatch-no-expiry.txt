@@ -75,9 +75,10 @@ Table of Contents
    1.  Introduction
    2.  Removing Internet-Draft Expiration
    3.  Replacement Procedures
-   4.  Security and Privacy Considerations
-   5.  IANA Considerations
-   6.  Normative References
+   4.  Referencing Internet-Drafts
+   5.  Security and Privacy Considerations
+   6.  IANA Considerations
+   7.  Normative References
    Authors' Addresses
 
 1.  Introduction
@@ -100,7 +101,9 @@ Table of Contents
    services.  Expired drafts are routinely cited and referenced.
    Published RFCs routinely include informative references to drafts,
    which then usually expire.  Many IANA registries refer to expired
-   drafts.
+   drafts.  Thus, statements about it being inappropriate to cite drafts
+   are incorrect and can lead readers not familiar with IETF processes
+   to misunderstand how old drafts are actually used.
 
    This document does the following:
 
@@ -177,15 +180,26 @@ Table of Contents
    updated in the interval between session N and session N+1, but were
    updated between session N-1 and session N.
 
-4.  Security and Privacy Considerations
+4.  Referencing Internet-Drafts
+
+   Documents referencing Internet-Drafts should always include the two-
+   digit version number of the draft.  It is possible to reference the
+   latest version of a draft by excluding the two-digit version number,
+   but this can lead readers of the reference to not know which version
+   of the draft is being referenced.  Documents referencing Internet-
+   Drafts should always reference using URLs for the IETF Datatracker
+   because this is expected to be the most stable URL for a particular
+   version of a draft.
+
+5.  Security and Privacy Considerations
 
    This document has no direct implications on security or privacy.
 
-5.  IANA Considerations
+6.  IANA Considerations
 
    This document makes no request of IANA.
 
-6.  Normative References
+7.  Normative References
 
    [IDCG]     "Content guidelines overview", 1 June 2022,
               <https://authors.ietf.org/en/content-guidelines-overview>.
