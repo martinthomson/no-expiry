@@ -108,7 +108,7 @@ Table of Contents
       Draft when the latest version is unchanged for more than six
       months.
 
-   *  Updates [WG] to eliminate the inclusion of an exiration date in
+   *  Updates [WG] to eliminate the inclusion of an expiration date in
       Internet-Drafts.
 
    *  Updates the boilerplate text for Internet-Drafts to no longer
