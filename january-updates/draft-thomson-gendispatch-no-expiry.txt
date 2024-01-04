@@ -6,7 +6,7 @@ General Area Dispatch                                         M. Thomson
 Internet-Draft                                                   Mozilla
 Updates: 2026, 2418 (if approved)                             P. Hoffman
 Intended status: Best Current Practice                             ICANN
-Expires: 28 April 2024                                   26 October 2023
+Expires: 7 July 2024                                      4 January 2024
 
 
             Removing Expiration Notices from Internet-Drafts
@@ -17,7 +17,9 @@ Abstract
    The long-standing policy of requiring that Internet-Drafts bear an
    expiration date is no longer necessary.  This document removes
    requirements for expiration for Internet-Drafts from RFC 2026/BCP 9
-   and RFC 2418/BCP 25.
+   and RFC 2418/BCP 25.  In place of expiration, this document
+   introduces Internet-Drafts being labeled "active" and "inactive" in
+   the IETF tooling.
 
 About This Document
 
@@ -52,11 +54,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 28 April 2024.
+   This Internet-Draft will expire on 7 July 2024.
 
 Copyright Notice
 
-   Copyright (c) 2023 IETF Trust and the persons identified as the
+   Copyright (c) 2024 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -99,6 +101,22 @@ Table of Contents
    Published RFCs routinely include informative references to drafts,
    which then usually expire.  Many IANA registries refer to expired
    drafts.
+
+   This document does the following:
+
+   *  Updates [STD-PROCESS] to eliminate the removal of an Internet-
+      Draft when the latest version is unchanged for more than six
+      months.
+
+   *  Updates [WG] to eliminate the inclusion of an exiration date in
+      Internet-Drafts.
+
+   *  Updates the boilerplate text for Internet-Drafts to no longer
+      include the "Expires:" field.
+
+   *  Introduces Internet-Drafts being labeled "active" and "inactive"
+      in the IETF tooling. without specifying how that tooling will do
+      so.
 
 2.  Removing Internet-Draft Expiration
 

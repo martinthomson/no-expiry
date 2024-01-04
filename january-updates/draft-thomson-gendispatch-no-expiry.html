@@ -7,29 +7,31 @@
 <title>Removing Expiration Notices from Internet-Drafts</title>
 <meta content="Martin Thomson" name="author">
 <meta content="Paul Hoffman" name="author">
-<meta content="
+<meta content='
        The long-standing policy of requiring that Internet-Drafts bear an expiration
 date is no longer necessary.  This document removes requirements for expiration
-for Internet-Drafts from RFC 2026/BCP 9 and RFC 2418/BCP 25. 
-    " name="description">
-<meta content="xml2rfc 3.18.2" name="generator">
+for Internet-Drafts from RFC 2026/BCP 9 and RFC 2418/BCP 25.
+In place of expiration, this document introduces Internet-Drafts being labeled
+"active" and "inactive" in the IETF tooling. 
+    ' name="description">
+<meta content="xml2rfc 3.19.0" name="generator">
 <meta content="dead mans switch" name="keyword">
 <meta content="draft-thomson-gendispatch-no-expiry-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.18.2
+  xml2rfc 3.19.0
     Python 3.11.6
-    ConfigArgParse 1.5.3
+    ConfigArgParse 1.7
     google-i18n-address 3.1.0
     intervaltree 3.1.0
     Jinja2 3.1.2
     lxml 4.9.3
-    platformdirs 3.11.0
+    platformdirs 4.1.0
     pycountry 22.3.5
-    PyYAML 6.0
+    PyYAML 6.0.1
     requests 2.31.0
-    setuptools 67.7.2
+    setuptools 68.2.2
     six 1.16.0
-    wcwidth 0.2.8
+    wcwidth 0.2.12
 -->
 <link href="draft-thomson-gendispatch-no-expiry.xml" rel="alternate" type="application/rfc+xml">
 <link href="#copyright" rel="license">
@@ -1028,11 +1030,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">Drafts Aren't Milk</td>
-<td class="right">October 2023</td>
+<td class="right">January 2024</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Thomson &amp; Hoffman</td>
-<td class="center">Expires 28 April 2024</td>
+<td class="center">Expires 7 July 2024</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1048,12 +1050,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <a href="https://www.rfc-editor.org/rfc/rfc2026" class="eref">2026</a>, <a href="https://www.rfc-editor.org/rfc/rfc2418" class="eref">2418</a> (if approved)</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2023-10-26" class="published">26 October 2023</time>
+<time datetime="2024-01-04" class="published">4 January 2024</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Best Current Practice</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2024-04-28">28 April 2024</time></dd>
+<dd class="expires"><time datetime="2024-07-07">7 July 2024</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1072,7 +1074,9 @@ svg :is([fill="white"], [fill^="#fff"]) {
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
 <p id="section-abstract-1">The long-standing policy of requiring that Internet-Drafts bear an expiration
 date is no longer necessary.  This document removes requirements for expiration
-for Internet-Drafts from RFC 2026/BCP 9 and RFC 2418/BCP 25.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
+for Internet-Drafts from RFC 2026/BCP 9 and RFC 2418/BCP 25.
+In place of expiration, this document introduces Internet-Drafts being labeled
+"active" and "inactive" in the IETF tooling.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
       <h2 id="name-about-this-document">
@@ -1109,7 +1113,7 @@ for Internet-Drafts from RFC 2026/BCP 9 and RFC 2418/BCP 25.<a href="#section-ab
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 28 April 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 7 July 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1118,7 +1122,7 @@ for Internet-Drafts from RFC 2026/BCP 9 and RFC 2418/BCP 25.<a href="#section-ab
 <a href="#name-copyright-notice" class="section-name selfRef">Copyright Notice</a>
         </h2>
 <p id="section-boilerplate.2-1">
-            Copyright (c) 2023 IETF Trust and the persons identified as the
+            Copyright (c) 2024 IETF Trust and the persons identified as the
             document authors. All rights reserved.<a href="#section-boilerplate.2-1" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.2-2">
             This document is subject to BCP 78 and the IETF Trust's Legal
@@ -1184,6 +1188,25 @@ views or searches.<a href="#section-1-2" class="pilcrow">¶</a></p>
 Expired drafts are routinely cited and referenced.  Published RFCs routinely
 include informative references to drafts, which then usually expire.
 Many IANA registries refer to expired drafts.<a href="#section-1-3" class="pilcrow">¶</a></p>
+<p id="section-1-4">This document does the following:<a href="#section-1-4" class="pilcrow">¶</a></p>
+<ul class="normal">
+<li class="normal" id="section-1-5.1">
+          <p id="section-1-5.1.1">Updates <span>[<a href="#STD-PROCESS" class="cite xref">STD-PROCESS</a>]</span> to eliminate the removal of an Internet-Draft
+when the latest version is unchanged for more than six months.<a href="#section-1-5.1.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-1-5.2">
+          <p id="section-1-5.2.1">Updates <span>[<a href="#WG" class="cite xref">WG</a>]</span> to eliminate the inclusion of an exiration date in
+Internet-Drafts.<a href="#section-1-5.2.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-1-5.3">
+          <p id="section-1-5.3.1">Updates the boilerplate text for Internet-Drafts to no longer include the
+"Expires:" field.<a href="#section-1-5.3.1" class="pilcrow">¶</a></p>
+</li>
+        <li class="normal" id="section-1-5.4">
+          <p id="section-1-5.4.1">Introduces Internet-Drafts being labeled "active" and "inactive" in the
+IETF tooling. without specifying how that tooling will do so.<a href="#section-1-5.4.1" class="pilcrow">¶</a></p>
+</li>
+      </ul>
 </section>
 </div>
 <div id="removing-internet-draft-expiration">
