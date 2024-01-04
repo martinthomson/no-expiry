@@ -159,12 +159,12 @@ version of a draft as "active" or "inactive".
 When a new version of a draft is published, it is immediately marked as "active",
 and all earlier versions of that draft are marked as "inactive".
 
-Other reasons that a draft might be marked "active" or "inactive" are open, 
+Other reasons that a draft might be marked "active" or "inactive" are open,
 but will be informed by the IETF community.
 Suggestions have already been made
 for automatically marking drafts as "inactive" after a certain period of time,
 for allowing working group chairs to control the marking for working group drafts,
-and for authors being able to change the status of their draft, 
+and for authors being able to change the status of their draft,
 either to mark a draft that has been overcome by events as "inactive"
 or mark a draft as "active" when there is renewed interest.
 
