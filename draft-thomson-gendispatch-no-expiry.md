@@ -152,6 +152,24 @@ be issued for drafts that have not been updated in the interval between session
 N and session N+1, but were updated between session N-1 and session N.
 
 
+# Active and Inactive Status for Internet-Drafts
+
+The tooling maintained by the IETF (such as the Datatracker) can mark the latest
+version of a draft as "active" or "inactive".
+When a new version of a draft is published, it is immediately marked as "active",
+and all earlier versions of that draft are marked as "inactive".
+
+The mechanism that the IETF tooling will use to make and display such markings
+is outside the scope of this document.
+The tooling changes for marking drafts "active" or "inactive" will be informed
+by the IETF community.
+Suggestions have already been made
+for automatically marking drafts as "inactive" after a certain period of time,
+for allowing working group chairs to control the marking for working group drafts,
+and for authors being able to change the status of a draft from "inactive" to "active"
+when they are ready to work on a draft again.
+
+
 # Referencing Internet-Drafts
 
 Documents referencing Internet-Drafts should always include the two-digit version number of the draft.
