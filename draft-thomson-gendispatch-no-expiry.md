@@ -73,6 +73,9 @@ Copies of expired drafts are retained and can be obtained using other services.
 Expired drafts are routinely cited and referenced.  Published RFCs routinely
 include informative references to drafts, which then usually expire.
 Many IANA registries refer to expired drafts.
+Thus, statements about it being inappropriate to cite drafts are incorrect and
+can lead readers not familiar with IETF processes to misunderstand how old
+drafts are actually used.
 
 This document does the following:
 
