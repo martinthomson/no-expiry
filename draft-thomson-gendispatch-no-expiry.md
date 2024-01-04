@@ -85,8 +85,8 @@ Internet-Drafts.
 - Updates the boilerplate text for Internet-Drafts to no longer include the
 "Expires:" field.
 
-- Introduces Internet-Drafts being labeled "active" and "inactive" in the
-IETF tooling. without specifying how that tooling will do so.
+- Introduces a status for Internet-Drafts which can be set to either "active" or "inactive" in
+tooling without specifying how this is implemented.
 
 
 # Removing Internet-Draft Expiration
