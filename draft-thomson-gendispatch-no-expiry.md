@@ -85,6 +85,8 @@ when the latest version is unchanged for more than six months.
 - Updates {{!WG=RFC2418}} to eliminate the inclusion of an expiration date in
 Internet-Drafts.
 
+- Updates the Content Guidelines {{IDCG}} to remove references to expiration.
+
 - Updates the boilerplate text for Internet-Drafts to no longer include the
 "Expires:" field.
 
@@ -92,7 +94,7 @@ Internet-Drafts.
 tooling without specifying how this is implemented.
 
 
-# Removing Internet-Draft Expiration
+# No More Expiration and Automatic Removal
 
 Forced expiration serves no purpose that is not adequately served by the
 publication date on the document.
@@ -104,7 +106,39 @@ might invalidate the content virtually immediately; conversely, an
 Internet-Draft could also remain relevant for an arbitrarily long period of
 time.
 
-This document proposes that the "Expires:" field be removed from the header of
+## Changes to Existing RFCs and Guidelines
+
+RFC 2026 {{!STD-PROCESS=RFC2026}} talks about removal of Internet-Drafts in
+the second paragraph of Section <xref section="2.2" sectionFormat="bare"
+target="STD-PROCESS"/>, which reads:
+
+{:quote}
+> An Internet-Draft that is published as an RFC, or that has remained
+> unchanged in the Internet-Drafts directory for more than six months
+> without being recommended by the IESG for publication as an RFC, is
+> simply removed from the Internet-Drafts directory.  At any time, an
+> Internet-Draft may be replaced by a more recent version of the same
+> specification, restarting the six-month timeout period.
+
+This paragraph is replaced with:
+
+{:quote}
+> At any time, an
+> Internet-Draft may be replaced by a more recent version of the same
+> specification.
+
+RFC 2418 {{!WG=RFC2418}} talks about header information in Internet-Drafts in
+Section <xref section="7.2" sectionFormat="bare" target="WG"/>.
+The bullet point "- The expiration date for the I-D." from that section is removed.
+
+The Content Guidelines {{IDCG}} refers to boilerplate that will be updated; see {{boilerplate}}.
+Content Guidelines also says
+"A statement specifying the expiry date of the Internet-Draft."
+This statement and the description of how to specify the exipry date is removed.
+
+## Removing the Expires field from Internet-Drafts {#boilerplate}
+
+This document specifies that the "Expires:" field be removed from the header of
 submitted Internet-Drafts, and that the boilerplate be amended as follows:
 
 OLD:
@@ -119,19 +153,6 @@ NEW:
 > Internet-Drafts are draft documents that may be updated, replaced, or
   obsoleted at any time. It is inappropriate to cite them other than as "work in
   progress."
-
-Creating a revision to the Content Guidelines {{IDCG}} will be necessary to
-remove references to expiration.
-
-This document updates RFC 2026 {{!STD-PROCESS=RFC2026}} to remove the second
-paragraph of Section <xref section="2.2" sectionFormat="bare"
-target="STD-PROCESS"/> and RFC 2418 {{!WG=RFC2418}} to remove a single mention
-of expiration from Section <xref section="7.2" sectionFormat="bare"
-target="WG"/>.
-
-Other than these specific changes, both RFC 2026 and RFC 2418 refer to
-expiration of drafts.  With this change, this is understood to apply to drafts
-that are marked as "dead" in tooling.
 
 
 # Replacement Procedures
