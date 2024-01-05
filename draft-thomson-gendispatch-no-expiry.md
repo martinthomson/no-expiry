@@ -131,7 +131,8 @@ RFC 2418 {{!WG=RFC2418}} talks about header information in Internet-Drafts in
 Section <xref section="7.2" sectionFormat="bare" target="WG"/>.
 The bullet point "- The expiration date for the I-D." from that section is removed.
 
-The Content Guidelines {{IDCG}} says
+The Content Guidelines {{IDCG}} refers to boilerplate that will be updated; see {{boilerplate}}.
+Content Guidelines also says
 "A statement specifying the expiry date of the Internet-Draft."
 This statement and the description of how to specify the exipry date is removed.
 
