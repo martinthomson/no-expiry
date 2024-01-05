@@ -6,7 +6,7 @@ General Area Dispatch                                         M. Thomson
 Internet-Draft                                                   Mozilla
 Updates: 2026, 2418 (if approved)                             P. Hoffman
 Intended status: Best Current Practice                             ICANN
-Expires: 7 July 2024                                      4 January 2024
+Expires: 8 July 2024                                      5 January 2024
 
 
             Removing Expiration Notices from Internet-Drafts
@@ -54,7 +54,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 7 July 2024.
+   This Internet-Draft will expire on 8 July 2024.
 
 Copyright Notice
 
@@ -73,7 +73,9 @@ Copyright Notice
 Table of Contents
 
    1.  Introduction
-   2.  Removing Internet-Draft Expiration
+   2.  No More Expiration and Automatic Removal
+     2.1.  Changes to Existing RFCs and Guidelines
+     2.2.  Removing the Expires field from Internet-Drafts
    3.  Replacement Procedures
    4.  Active and Inactive Status for Internet-Drafts
    5.  Referencing Internet-Drafts
@@ -115,6 +117,9 @@ Table of Contents
    *  Updates [WG] to eliminate the inclusion of an expiration date in
       Internet-Drafts.
 
+   *  Updates the Content Guidelines [IDCG] to remove references to
+      expiration.
+
    *  Updates the boilerplate text for Internet-Drafts to no longer
       include the "Expires:" field.
 
@@ -122,7 +127,7 @@ Table of Contents
       "active" or "inactive" in tooling without specifying how this is
       implemented.
 
-2.  Removing Internet-Draft Expiration
+2.  No More Expiration and Automatic Removal
 
    Forced expiration serves no purpose that is not adequately served by
    the publication date on the document.
@@ -134,7 +139,36 @@ Table of Contents
    virtually immediately; conversely, an Internet-Draft could also
    remain relevant for an arbitrarily long period of time.
 
-   This document proposes that the "Expires:" field be removed from the
+2.1.  Changes to Existing RFCs and Guidelines
+
+   RFC 2026 [STD-PROCESS] talks about removal of Internet-Drafts in the
+   second paragraph of Section 2.2, which reads:
+
+   |  An Internet-Draft that is published as an RFC, or that has
+   |  remained unchanged in the Internet-Drafts directory for more than
+   |  six months without being recommended by the IESG for publication
+   |  as an RFC, is simply removed from the Internet-Drafts directory.
+   |  At any time, an Internet-Draft may be replaced by a more recent
+   |  version of the same specification, restarting the six-month
+   |  timeout period.
+
+   This paragraph is replaced with:
+
+   |  At any time, an Internet-Draft may be replaced by a more recent
+   |  version of the same specification.
+
+   RFC 2418 [WG] talks about header information in Internet-Drafts in
+   Section 7.2.  The bullet point "- The expiration date for the I-D."
+   from that section is removed.
+
+   The Content Guidelines [IDCG] refers to boilerplate that will be
+   updated; see Section 2.2.  Content Guidelines also says "A statement
+   specifying the expiry date of the Internet-Draft."  This statement
+   and the description of how to specify the exipry date is removed.
+
+2.2.  Removing the Expires field from Internet-Drafts
+
+   This document specifies that the "Expires:" field be removed from the
    header of submitted Internet-Drafts, and that the boilerplate be
    amended as follows:
 
@@ -151,17 +185,6 @@ Table of Contents
       Internet-Drafts are draft documents that may be updated, replaced,
       or obsoleted at any time.  It is inappropriate to cite them other
       than as "work in progress."
-
-   Creating a revision to the Content Guidelines [IDCG] will be
-   necessary to remove references to expiration.
-
-   This document updates RFC 2026 [STD-PROCESS] to remove the second
-   paragraph of Section 2.2 and RFC 2418 [WG] to remove a single mention
-   of expiration from Section 7.2.
-
-   Other than these specific changes, both RFC 2026 and RFC 2418 refer
-   to expiration of drafts.  With this change, this is understood to
-   apply to drafts that are marked as "dead" in tooling.
 
 3.  Replacement Procedures
 
