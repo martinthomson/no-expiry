@@ -155,24 +155,6 @@ NEW:
   progress."
 
 
-# Replacement Procedures
-
-The expiration of a draft is intended to ensure that the topic is disqualified
-from consideration and discussion.  At the same time, updating a draft
-indicates continued interest from the authors.
-
-People might choose to concentrate their efforts on drafts that have been
-recently updated.  For instance, when setting an agenda for a session, chairs
-might give precedence to documents that have been updated since the preceding
-session.
-
-Expiration has also been used as a reminder to authors to update documents.  A
-substitute for expiration reminders might be to provide a note in advance of
-planned sessions.  For instance, for an upcoming session N+1, a reminder might
-be issued for drafts that have not been updated in the interval between session
-N and session N+1, but were updated between session N-1 and session N.
-
-
 # Active and Inactive Status for Internet-Drafts
 
 The tooling maintained by the IETF (such as the Datatracker) can mark the latest
@@ -188,6 +170,25 @@ for allowing working group chairs to control the marking for working group draft
 and for authors being able to change the status of their draft,
 either to mark a draft that has been overcome by events as "inactive"
 or mark a draft as "active" when there is renewed interest.
+
+## Replacement Procedures
+
+Originally, the expiration of a draft was intended to ensure that the topic is disqualified
+from consideration. Updating a draft before expiration was intended to
+indicate continued interest from the authors.
+
+Expiration was also used as a reminder to authors to update documents.
+Without expiration, a substitute might be to provide a note in advance of
+planned sessions.  For instance, for an upcoming session N+1, a reminder might
+be issued for drafts that have not been updated in the interval between session
+N and session N+1, but were updated between session N-1 and session N.
+The "active" and "inactive" markings can also be used nudge authors to update
+drafts before a meeting.
+
+People might choose to concentrate their efforts on drafts that have been
+recently updated.
+With "active" and "inactive" markings, those people will have another indicator
+for which documents might be of interest.
 
 
 # Referencing Internet-Drafts
