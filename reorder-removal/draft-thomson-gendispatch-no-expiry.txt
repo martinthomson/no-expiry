@@ -161,9 +161,10 @@ Table of Contents
    Section 7.2.  The bullet point "- The expiration date for the I-D."
    from that section is removed.
 
-   The Content Guidelines [IDCG] says "A statement specifying the expiry
-   date of the Internet-Draft."  This statement and the description of
-   how to specify the exipry date is removed.
+   The Content Guidelines [IDCG] refers to boilerplate that will be
+   updated; see Section 2.2.  Content Guidelines also says "A statement
+   specifying the expiry date of the Internet-Draft."  This statement
+   and the description of how to specify the exipry date is removed.
 
 2.2.  Removing the Expires field from Internet-Drafts
 
