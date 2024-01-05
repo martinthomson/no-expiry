@@ -136,7 +136,7 @@ Content Guidelines also says
 "A statement specifying the expiry date of the Internet-Draft."
 This statement and the description of how to specify the exipry date is removed.
 
-## Removing the Expires field from Internet-Drafts
+## Removing the Expires field from Internet-Drafts {#boilerplate}
 
 This document specifies that the "Expires:" field be removed from the header of
 submitted Internet-Drafts, and that the boilerplate be amended as follows:
