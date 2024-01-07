@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-01-04T00:50:44.794800+00:00",
+  "timestamp": "2024-01-07T00:55:32.480858+00:00",
   "repo": "martinthomson/no-expiry",
   "labels": [
     {
@@ -115,7 +115,7 @@
       "baseRepository": "martinthomson/no-expiry",
       "baseRefName": "main",
       "baseRefOid": "91af934aa173f20b8daab78f557306e0b6872c42",
-      "headRepository": "paulehoffman/draft-thomson-gendispatch-no-expiry",
+      "headRepository": null,
       "headRefName": "main",
       "headRefOid": "46741a5f3ea818196be3f9c859852ceb902bd34b",
       "closedAt": "2023-08-31T23:12:49Z",
@@ -185,7 +185,7 @@
       "baseRepository": "martinthomson/no-expiry",
       "baseRefName": "main",
       "baseRefOid": "02f1b5791593d8c62bcfb1ebf84b32622d6ad5d2",
-      "headRepository": "paulehoffman/draft-thomson-gendispatch-no-expiry",
+      "headRepository": null,
       "headRefName": "main",
       "headRefOid": "b7333648996eb59ed58c8ed87ba283d6320d0666",
       "closedAt": "2023-09-01T02:06:16Z",
@@ -227,7 +227,7 @@
       "baseRepository": "martinthomson/no-expiry",
       "baseRefName": "main",
       "baseRefOid": "26c44e96461e42b75eee6cb1318ff505f7d27adc",
-      "headRepository": "paulehoffman/draft-thomson-gendispatch-no-expiry",
+      "headRepository": null,
       "headRefName": "main",
       "headRefOid": "ad3687ec36371d70fa44b7fdd2345dd83d5fb536",
       "closedAt": "2023-09-01T19:59:39Z",
@@ -480,6 +480,298 @@
           "body": "The first change is wrong in that you changed the OLD text instead of the NEW text. The second change is fine. After you fix the first change, go ahead and merge.",
           "createdAt": "2023-10-26T14:23:29Z",
           "updatedAt": "2023-10-26T14:30:28Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "id": "PR_kwDODRby885jLo0R",
+      "title": "January updates",
+      "url": "https://github.com/martinthomson/no-expiry/pull/9",
+      "state": "CLOSED",
+      "author": "paulehoffman",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-01-04T01:27:26Z",
+      "updatedAt": "2024-01-04T01:28:14Z",
+      "baseRepository": "martinthomson/no-expiry",
+      "baseRefName": "main",
+      "baseRefOid": "980f49657700fa25b13f615c1e293f08f37bd89c",
+      "headRepository": null,
+      "headRefName": "january-updates",
+      "headRefOid": "ff8d784be0cc991e491725840c66641570d0c94a",
+      "closedAt": "2024-01-04T01:28:09Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 10,
+      "id": "PR_kwDODRby885jLq0N",
+      "title": "Update abstract and add list of what the doc will do",
+      "url": "https://github.com/martinthomson/no-expiry/pull/10",
+      "state": "MERGED",
+      "author": "paulehoffman",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-01-04T01:43:43Z",
+      "updatedAt": "2024-01-05T05:33:58Z",
+      "baseRepository": "martinthomson/no-expiry",
+      "baseRefName": "main",
+      "baseRefOid": "980f49657700fa25b13f615c1e293f08f37bd89c",
+      "headRepository": "martinthomson/no-expiry",
+      "headRefName": "january-updates",
+      "headRefOid": "ddf7ff4cdb7b5cb034c25006fee03575f04236ba",
+      "closedAt": "2024-01-04T22:46:50Z",
+      "mergedAt": "2024-01-04T22:46:50Z",
+      "mergedBy": "martinthomson",
+      "mergeCommit": {
+        "oid": "0a99c6fecc4e74d72b3c5b3a9e9f6cc94f656a85"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDODRby885rfHxB",
+          "commit": {
+            "abbreviatedOid": "4713f99"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-01-04T01:45:01Z",
+          "updatedAt": "2024-01-04T01:46:51Z",
+          "comments": [
+            {
+              "originalPosition": 18,
+              "body": "```suggestion\r\n- Updates {{!WG=RFC2418}} to eliminate the inclusion of an expiration date in\r\n```",
+              "createdAt": "2024-01-04T01:45:01Z",
+              "updatedAt": "2024-01-04T01:46:51Z"
+            },
+            {
+              "originalPosition": 25,
+              "body": "```suggestion\r\n- Introduces a status for Internet-Drafts which can be set to either \"active\" or \"inactive\" in\r\ntooling without specifying how this is implemented.\r\n```",
+              "createdAt": "2024-01-04T01:46:19Z",
+              "updatedAt": "2024-01-04T01:46:51Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDODRby885rlw4y",
+          "commit": {
+            "abbreviatedOid": "29f37ec"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "Some suggestions, but they are modest.",
+          "createdAt": "2024-01-04T22:27:07Z",
+          "updatedAt": "2024-01-04T22:31:07Z",
+          "comments": [
+            {
+              "originalPosition": 47,
+              "body": "I don't think that we need to focus on tooling changes, but instead say\r\n\r\n```suggestion\r\nOther reasons that a draft might be marked \"active\" or \"inactive\" are open, \r\nbut will be informed by the IETF community.\r\n```",
+              "createdAt": "2024-01-04T22:27:07Z",
+              "updatedAt": "2024-01-04T22:31:07Z"
+            },
+            {
+              "originalPosition": 52,
+              "body": "```suggestion\r\nand for authors being able to change the status of their draft, \r\neither to mark a draft that has been overcome by events as \"inactive\"\r\nor mark a draft as \"active\" when there is renewed interest.\r\n```",
+              "createdAt": "2024-01-04T22:29:27Z",
+              "updatedAt": "2024-01-04T22:31:07Z"
+            },
+            {
+              "originalPosition": 59,
+              "body": "On consideration, I wouldn't even mention this part.\r\n\r\n```suggestion\r\n```\r\n\r\nYes, datatracker has this capability and we do so informally, but I think that it is enough to say the positive without explaining the negative.",
+              "createdAt": "2024-01-04T22:30:34Z",
+              "updatedAt": "2024-01-04T22:31:07Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDODRby885rl1Q6",
+          "commit": {
+            "abbreviatedOid": "37d1269"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "oopsie",
+          "createdAt": "2024-01-04T22:45:52Z",
+          "updatedAt": "2024-01-04T22:46:03Z",
+          "comments": [
+            {
+              "originalPosition": 49,
+              "body": "```suggestion\r\nand for authors being able to change the status of their draft,\r\n```",
+              "createdAt": "2024-01-04T22:45:52Z",
+              "updatedAt": "2024-01-04T22:46:03Z"
+            },
+            {
+              "originalPosition": 44,
+              "body": "```suggestion\r\nOther reasons that a draft might be marked \"active\" or \"inactive\" are open,\r\n```",
+              "createdAt": "2024-01-04T22:45:57Z",
+              "updatedAt": "2024-01-04T22:46:03Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "id": "PR_kwDODRby885jRAsD",
+      "title": "Fix warning about xrefs",
+      "url": "https://github.com/martinthomson/no-expiry/pull/11",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "No need to include format=\"none\" here.",
+      "createdAt": "2024-01-04T22:55:21Z",
+      "updatedAt": "2024-01-04T23:05:13Z",
+      "baseRepository": "martinthomson/no-expiry",
+      "baseRefName": "main",
+      "baseRefOid": "0a99c6fecc4e74d72b3c5b3a9e9f6cc94f656a85",
+      "headRepository": "martinthomson/no-expiry",
+      "headRefName": "format-none",
+      "headRefOid": "60d6eacffd435166ce159fd927d432787fc62b98",
+      "closedAt": "2024-01-04T23:05:13Z",
+      "mergedAt": "2024-01-04T23:05:13Z",
+      "mergedBy": "paulehoffman",
+      "mergeCommit": {
+        "oid": "085fbb6182bf8910fc152513d5671de51739feec"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 12,
+      "id": "PR_kwDODRby885jRVDZ",
+      "title": "Reorder the updates to other docs to match the new list at the beginning",
+      "url": "https://github.com/martinthomson/no-expiry/pull/12",
+      "state": "MERGED",
+      "author": "paulehoffman",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-01-05T00:26:05Z",
+      "updatedAt": "2024-01-05T00:36:08Z",
+      "baseRepository": "martinthomson/no-expiry",
+      "baseRefName": "main",
+      "baseRefOid": "085fbb6182bf8910fc152513d5671de51739feec",
+      "headRepository": "martinthomson/no-expiry",
+      "headRefName": "reorder-removal",
+      "headRefOid": "657d0d834853c52b74c576fd6039039e21504d79",
+      "closedAt": "2024-01-05T00:36:08Z",
+      "mergedAt": "2024-01-05T00:36:08Z",
+      "mergedBy": "paulehoffman",
+      "mergeCommit": {
+        "oid": "fc1b564b5cc8c4b743546680484366e0e141dca8"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDODRby885rmSqL",
+          "commit": {
+            "abbreviatedOid": "a303b48"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "I'm OK with this.\r\n\r\n(I'm not a fan of monkey-patching other documents, but it seems like I'm on my own there.)",
+          "createdAt": "2024-01-05T00:28:33Z",
+          "updatedAt": "2024-01-05T00:29:39Z",
+          "comments": [
+            {
+              "originalPosition": 48,
+              "body": "IDCG also includes boilerplate, which is worth mentioning.\r\n\r\n```suggestion\r\nThe Content Guidelines {{IDCG}} refers to boilerplate that will be updated; see {{boilerplate}}.\r\nContent Guidelines also says\r\n```",
+              "createdAt": "2024-01-05T00:28:33Z",
+              "updatedAt": "2024-01-05T00:30:05Z"
+            },
+            {
+              "originalPosition": 52,
+              "body": "```suggestion\r\n## Removing the Expires field from Internet-Drafts {#boilerplate}\r\n```",
+              "createdAt": "2024-01-05T00:28:41Z",
+              "updatedAt": "2024-01-05T00:29:39Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "id": "PR_kwDODRby885jRXny",
+      "title": "when you type the same word over and over...",
+      "url": "https://github.com/martinthomson/no-expiry/pull/13",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-01-05T00:41:55Z",
+      "updatedAt": "2024-01-05T01:19:55Z",
+      "baseRepository": "martinthomson/no-expiry",
+      "baseRefName": "main",
+      "baseRefOid": "fc1b564b5cc8c4b743546680484366e0e141dca8",
+      "headRepository": "martinthomson/no-expiry",
+      "headRefName": "typo",
+      "headRefOid": "61e0eb64dc8d73e3e1cab5ed15f63805cdf94b91",
+      "closedAt": "2024-01-05T01:19:53Z",
+      "mergedAt": "2024-01-05T01:19:53Z",
+      "mergedBy": "paulehoffman",
+      "mergeCommit": {
+        "oid": "af4cf3caba9c96b7f851c5d86f9a18d6f6cc9d24"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 14,
+      "id": "PR_kwDODRby885jRe_f",
+      "title": "Move \"replacement procedures\" and make it clear that expiration is no longer an option",
+      "url": "https://github.com/martinthomson/no-expiry/pull/14",
+      "state": "MERGED",
+      "author": "paulehoffman",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-01-05T01:39:20Z",
+      "updatedAt": "2024-01-05T02:35:33Z",
+      "baseRepository": "martinthomson/no-expiry",
+      "baseRefName": "main",
+      "baseRefOid": "af4cf3caba9c96b7f851c5d86f9a18d6f6cc9d24",
+      "headRepository": "martinthomson/no-expiry",
+      "headRefName": "on-replacement",
+      "headRefOid": "76c95cc76185ba47d9767d91ba81147704fcfb43",
+      "closedAt": "2024-01-05T02:35:32Z",
+      "mergedAt": "2024-01-05T02:35:32Z",
+      "mergedBy": "paulehoffman",
+      "mergeCommit": {
+        "oid": "ade69847b9670576831fb9f016909c9dcf92fb21"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDODRby885rmcWW",
+          "commit": {
+            "abbreviatedOid": "76c95cc"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-01-05T01:40:54Z",
+          "updatedAt": "2024-01-05T01:40:54Z",
           "comments": []
         }
       ]
