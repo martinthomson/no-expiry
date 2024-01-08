@@ -6,7 +6,7 @@ General Area Dispatch                                         M. Thomson
 Internet-Draft                                                   Mozilla
 Updates: 2026, 2418 (if approved)                             P. Hoffman
 Intended status: Best Current Practice                             ICANN
-Expires: 8 July 2024                                      5 January 2024
+Expires: 11 July 2024                                     8 January 2024
 
 
             Removing Expiration Notices from Internet-Drafts
@@ -54,7 +54,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 8 July 2024.
+   This Internet-Draft will expire on 11 July 2024.
 
 Copyright Notice
 
@@ -195,13 +195,13 @@ Table of Contents
    "inactive".
 
    Other reasons that a draft might be marked "active" or "inactive" are
-   open, but will be informed by the IETF community.  Suggestions have
-   already been made for automatically marking drafts as "inactive"
-   after a certain period of time, for allowing working group chairs to
-   control the marking for working group drafts, and for authors being
-   able to change the status of their draft, either to mark a draft that
-   has been overcome by events as "inactive" or mark a draft as "active"
-   when there is renewed interest.
+   open, but will be informed by the communities that use Internet-
+   Drafts.  Suggestions have already been made for automatically marking
+   drafts as "inactive" after a certain period of time, for allowing
+   working group chairs to control the marking for working group drafts,
+   and for authors being able to change the status of their draft,
+   either to mark a draft that has been overcome by events as "inactive"
+   or mark a draft as "active" when there is renewed interest.
 
 3.1.  Replacement Procedures
 
@@ -227,10 +227,11 @@ Table of Contents
 4.  Referencing Internet-Drafts
 
    Documents referencing Internet-Drafts should always include the two-
-   digit version number of the draft.  Documents referencing Internet-
-   Drafts should always reference using URLs for the IETF Datatracker
-   because this is expected to be the most stable URL for a particular
-   version of a draft.
+   digit version number of the draft, unless there is a reason to refer
+   to the draft generically.  Documents referencing Internet-Drafts
+   should always reference using URLs for the IETF Datatracker because
+   this is expected to be the most stable URL for a particular version
+   of a draft.
 
 5.  Security and Privacy Considerations
 
