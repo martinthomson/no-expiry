@@ -163,7 +163,7 @@ When a new version of a draft is published, it is immediately marked as "active"
 and all earlier versions of that draft are marked as "inactive".
 
 Other reasons that a draft might be marked "active" or "inactive" are open,
-but will be informed by the IETF community.
+but will be informed by the communities that use Internet-Drafts.
 Suggestions have already been made
 for automatically marking drafts as "inactive" after a certain period of time,
 for allowing working group chairs to control the marking for working group drafts,
@@ -193,7 +193,8 @@ for which documents might be of interest.
 
 # Referencing Internet-Drafts
 
-Documents referencing Internet-Drafts should always include the two-digit version number of the draft.
+Documents referencing Internet-Drafts should always include the two-digit version number of the draft,
+unless there is a reason to refer to the draft generically.
 Documents referencing Internet-Drafts should always reference using URLs for the IETF Datatracker
 because this is expected to be the most stable URL for a particular version of a draft.
 
