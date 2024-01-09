@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-01-07T00:55:32.480858+00:00",
+  "timestamp": "2024-01-09T00:51:40.396724+00:00",
   "repo": "martinthomson/no-expiry",
   "labels": [
     {
@@ -775,6 +775,34 @@
           "comments": []
         }
       ]
+    },
+    {
+      "number": 15,
+      "id": "PR_kwDODRby885jbYmk",
+      "title": "Some tweaks as suggested by Brian",
+      "url": "https://github.com/martinthomson/no-expiry/pull/15",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-01-08T03:35:52Z",
+      "updatedAt": "2024-01-08T15:09:38Z",
+      "baseRepository": "martinthomson/no-expiry",
+      "baseRefName": "main",
+      "baseRefOid": "ade69847b9670576831fb9f016909c9dcf92fb21",
+      "headRepository": "martinthomson/no-expiry",
+      "headRefName": "bec-tweaks",
+      "headRefOid": "ce40da1da3b57a0e21d1399b24a0a99bef018cef",
+      "closedAt": "2024-01-08T15:09:38Z",
+      "mergedAt": "2024-01-08T15:09:38Z",
+      "mergedBy": "paulehoffman",
+      "mergeCommit": {
+        "oid": "43890031b3c485cb43fd5650b1f6426f8e1a5b49"
+      },
+      "comments": [],
+      "reviews": []
     }
   ]
 }
