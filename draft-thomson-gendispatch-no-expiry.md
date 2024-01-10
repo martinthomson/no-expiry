@@ -195,8 +195,11 @@ for which documents might be of interest.
 
 Documents referencing Internet-Drafts should always include the two-digit version number of the draft,
 unless there is a reason to refer to the draft generically.
-Documents referencing Internet-Drafts should always reference using URLs for the IETF Datatracker
-because this is expected to be the most stable URL for a particular version of a draft.
+For instance, when producing an Internet-Draft it can be convenient to refer to another draft generically,
+where document production tools ensure that the final artifact refers to the most recent version.
+
+The IETF Datatracker service maintains a stable archive of most Internet-Drafts that is accessible by version.
+Using IETF Datatracker URLs in references ensures the availability of the referenced document.
 
 
 # Security and Privacy Considerations
