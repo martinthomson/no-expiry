@@ -6,7 +6,7 @@ General Area Dispatch                                         M. Thomson
 Internet-Draft                                                   Mozilla
 Updates: 2026, 2418 (if approved)                             P. Hoffman
 Intended status: Best Current Practice                             ICANN
-Expires: 11 July 2024                                     8 January 2024
+Expires: 13 July 2024                                    10 January 2024
 
 
             Removing Expiration Notices from Internet-Drafts
@@ -54,7 +54,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 July 2024.
+   This Internet-Draft will expire on 13 July 2024.
 
 Copyright Notice
 
@@ -228,10 +228,15 @@ Table of Contents
 
    Documents referencing Internet-Drafts should always include the two-
    digit version number of the draft, unless there is a reason to refer
-   to the draft generically.  Documents referencing Internet-Drafts
-   should always reference using URLs for the IETF Datatracker because
-   this is expected to be the most stable URL for a particular version
-   of a draft.
+   to the draft generically.  For instance, when producing an Internet-
+   Draft it can be convenient to refer to another draft generically,
+   where document production tools ensure that the final artifact refers
+   to the most recent version.
+
+   The IETF Datatracker service maintains a stable archive of most
+   Internet-Drafts that is accessible by version.  Using IETF
+   Datatracker URLs in references ensures the availability of the
+   referenced document.
 
 5.  Security and Privacy Considerations
 
