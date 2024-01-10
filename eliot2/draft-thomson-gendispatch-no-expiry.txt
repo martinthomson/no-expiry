@@ -81,7 +81,9 @@ Table of Contents
    4.  Referencing Internet-Drafts
    5.  Security and Privacy Considerations
    6.  IANA Considerations
-   7.  Normative References
+   7.  References
+     7.1.  Normative References
+     7.2.  Informative References
    Authors' Addresses
 
 1.  Introduction
@@ -199,11 +201,11 @@ Table of Contents
    Drafts.  Suggestions have already been made for automatically marking
    drafts as "inactive" after a certain period of time, for allowing
    working group chairs to control the marking for working group drafts,
-   for allowing drafts in particular editorial streams to have automatic
-   stream-specific policy, and for authors being able to change the
-   status of their draft, either to mark a draft that has been overcome
-   by events as "inactive" or mark a draft as "active" when there is
-   renewed interest.
+   for allowing documents targeting different streams (see Section 5 of
+   [RFC4844]) to be subject to stream-specific policies, and for authors
+   being able to change the status of their draft, either to mark a
+   draft that has been overcome by events as "inactive" or mark a draft
+   as "active" when there is renewed interest.
 
 3.1.  Replacement Procedures
 
@@ -243,7 +245,9 @@ Table of Contents
 
    This document makes no request of IANA.
 
-7.  Normative References
+7.  References
+
+7.1.  Normative References
 
    [IDCG]     "Content guidelines overview", 1 June 2022,
               <https://authors.ietf.org/en/content-guidelines-overview>.
@@ -256,6 +260,12 @@ Table of Contents
    [WG]       Bradner, S., "IETF Working Group Guidelines and
               Procedures", BCP 25, RFC 2418, DOI 10.17487/RFC2418,
               September 1998, <https://www.rfc-editor.org/rfc/rfc2418>.
+
+7.2.  Informative References
+
+   [RFC4844]  Daigle, L., Ed. and IAB, "The RFC Series and RFC Editor",
+              RFC 4844, DOI 10.17487/RFC4844, July 2007,
+              <https://www.rfc-editor.org/rfc/rfc4844>.
 
 Authors' Addresses
 
