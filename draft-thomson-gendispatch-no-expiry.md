@@ -74,7 +74,7 @@ Expired drafts are routinely cited and referenced in various contexts,
 such as in IANA registries, academic papers, and informational references in RFCs.
 Thus, statements about it being inappropriate to cite drafts
 can lead readers not familiar with IETF processes to misunderstand how old
-drafts are actually used in practice.
+drafts may used in practice.
 
 This document does the following:
 
