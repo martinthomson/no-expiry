@@ -167,7 +167,7 @@ but will be informed by the communities that use Internet-Drafts.
 Suggestions have already been made
 for automatically marking drafts as "inactive" after a certain period of time,
 for allowing working group chairs to control the marking for working group drafts,
-for allowing documents targeting different streams (see {{Section 5 of ?RFC 4844}}) to be subject to stream-specific policies,
+for allowing documents targeting different streams (see {{Section 5 of ?RFC4844}}) to be subject to stream-specific policies,
 and for authors being able to change the status of their draft,
 either to mark a draft that has been overcome by events as "inactive"
 or mark a draft as "active" when there is renewed interest.
