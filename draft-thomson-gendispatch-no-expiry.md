@@ -62,20 +62,19 @@ After this expiration date, some systems might display an Internet-Draft
 differently or not at all, with some exceptions, such as when the document is
 under IESG review.
 
-Expiration is believed to prevent the use of an Internet-Draft for reference
+Some people believe that automatic expiration prevents the use of an Internet-Draft for reference
 purposes, so that they do not become stable references in other work.
-Expiration also existed to encourage authors to update drafts that they wish to
+Some people believe that automatic expiration encourages authors to update drafts that they wish to
 discuss.  Originally, expired drafts were deleted from IETF servers completely;
-more recently, expiration only caused the document to be hidden from certain
+more recently, expiration only causes the document to be hidden from certain
 views or searches.
 
 Copies of expired drafts are retained and can be obtained using other services.
-Expired drafts are routinely cited and referenced.  Published RFCs routinely
-include informative references to drafts, which then usually expire.
-Many IANA registries refer to expired drafts.
-Thus, statements about it being inappropriate to cite drafts are incorrect and
+Expired drafts are routinely cited and referenced in various contexts,
+such as in IANA registries, academic papers, and informational references in RFCs.
+Thus, statements about it being inappropriate to cite drafts
 can lead readers not familiar with IETF processes to misunderstand how old
-drafts are actually used.
+drafts may used in practice.
 
 This document does the following:
 
@@ -95,9 +94,6 @@ tooling without specifying how this is implemented.
 
 
 # No More Expiration and Automatic Removal
-
-Forced expiration serves no purpose that is not adequately served by the
-publication date on the document.
 
 The date of posting for an Internet-Draft is the best -- or perhaps only --
 information available that can be added to a document the time of publication
