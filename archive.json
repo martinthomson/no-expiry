@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-01-09T00:51:40.396724+00:00",
+  "timestamp": "2024-01-11T00:51:49.843404+00:00",
   "repo": "martinthomson/no-expiry",
   "labels": [
     {
@@ -92,6 +92,37 @@
           "body": "think we might disagree a bit about what exactly to say there, but it's something that  can be sorted out later",
           "createdAt": "2023-09-04T15:49:38Z",
           "updatedAt": "2023-09-04T15:49:38Z"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "id": "I_kwDODRby8857kusJ",
+      "title": "\"Referencing Internet-Drafts\" section is slightly confusing",
+      "url": "https://github.com/martinthomson/no-expiry/issues/16",
+      "state": "CLOSED",
+      "author": "DavidSchinazi",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "It's somewhat unclear to me who the target audience of the \"Referencing Internet-Drafts\" section is. At first, I was assuming I was part of the target audience as a draft author. However, I write my drafts in kramdown where a reference is as simple as `See {{?NO-EXPIRY=thomson-gendispatch-no-expiry}}.`. In that scenario, I don't include the two-digit draft number - though it is added by the tooling. That's made life much better than the days of XML editing where the draft number needed to be edited manually every time idnits complained. So, is this guidance for tool authors?\r\n\r\nAdditionally, we might want to be clearer about what \"URLs for the IETF Datatracker\" means - the tooling currently links to the [HTMLized version from the datatracker](https://datatracker.ietf.org/doc/html/draft-thomson-gendispatch-no-expiry-02) but you could imagine linking instead to the [status page of this version of the draft](https://datatracker.ietf.org/doc/draft-thomson-gendispatch-no-expiry/02/), or perhaps the [HTML version from the archive](https://www.ietf.org/archive/id/draft-thomson-gendispatch-no-expiry-02.html).",
+      "createdAt": "2024-01-09T21:48:10Z",
+      "updatedAt": "2024-01-10T15:05:23Z",
+      "closedAt": "2024-01-10T15:05:23Z",
+      "comments": [
+        {
+          "author": "martinthomson",
+          "authorAssociation": "OWNER",
+          "body": "The point of the text is primarily to address the reality of the situation.  People create artifacts that cite drafts, but they often do so inconsistently.  As you say, it is sometimes convenient to refer to a draft generically, as you often do when authoring a document.  However, you do that on the expectation that the artifacts you create as a result are fixed to a specific version.\r\n\r\nI don't think that we need to be clearer about which of the many options on the datatracker are used.  Each is valid and the choice is up to the person making the citation.  However, the expectation is that the datatracker is the canonical reference source for I-Ds, just like rfc-editor.org is the canonical reference source for RFCs (as much as I find the info page links in RFCs annoying, it is still the right solution in the general case).",
+          "createdAt": "2024-01-10T00:18:57Z",
+          "updatedAt": "2024-01-10T00:18:57Z"
+        },
+        {
+          "author": "DavidSchinazi",
+          "authorAssociation": "NONE",
+          "body": "> The point of the text is primarily to address the reality of the situation. People create artifacts that cite drafts, but they often do so inconsistently. As you say, it is sometimes convenient to refer to a draft generically, as you often do when authoring a document. However, you do that on the expectation that the artifacts you create as a result are fixed to a specific version.\r\n\r\nTotally agree. I'd suggest mentioning that in the draft.\r\n\r\n> I don't think that we need to be clearer about which of the many options on the datatracker are used. Each is valid and the choice is up to the person making the citation. However, the expectation is that the datatracker is the canonical reference source for I-Ds, just like rfc-editor.org is the canonical reference source for RFCs (as much as I find the info page links in RFCs annoying, it is still the right solution in the general case).\r\n\r\nFair enough, that sounds reasonable.",
+          "createdAt": "2024-01-10T03:39:34Z",
+          "updatedAt": "2024-01-10T03:39:34Z"
         }
       ]
     }
@@ -278,21 +309,21 @@
       "id": "PR_kwDODRby885Zdodf",
       "title": "non-normative changes",
       "url": "https://github.com/martinthomson/no-expiry/pull/7",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "elear",
       "authorAssociation": "NONE",
       "assignees": [],
       "labels": [],
       "body": "There are two sets of changes here.\r\n\r\n1.  Remove the term \"WG chairs\" since it good be \"RG chairs\" or \"The ISE\".\r\n\r\n2. Discuss the reminder mechanism.",
       "createdAt": "2023-09-04T09:27:08Z",
-      "updatedAt": "2023-10-26T04:45:39Z",
+      "updatedAt": "2024-01-10T15:16:18Z",
       "baseRepository": "martinthomson/no-expiry",
       "baseRefName": "main",
       "baseRefOid": "c2d5837e5995421bb8da9ae4c4bf68284d21c31d",
       "headRepository": "elear/no-expiry",
       "headRefName": "patch-1",
       "headRefOid": "e1e1c5e7ebf7dae10d51c401c8b3c7c8d55a6ffd",
-      "closedAt": null,
+      "closedAt": "2024-01-10T15:16:18Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
@@ -802,6 +833,162 @@
         "oid": "43890031b3c485cb43fd5650b1f6426f8e1a5b49"
       },
       "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 17,
+      "id": "PR_kwDODRby885jol6r",
+      "title": "Tone down the strong beliefs of why this is needed",
+      "url": "https://github.com/martinthomson/no-expiry/pull/17",
+      "state": "MERGED",
+      "author": "paulehoffman",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-01-10T01:20:26Z",
+      "updatedAt": "2024-01-10T18:22:22Z",
+      "baseRepository": "martinthomson/no-expiry",
+      "baseRefName": "main",
+      "baseRefOid": "43890031b3c485cb43fd5650b1f6426f8e1a5b49",
+      "headRepository": "martinthomson/no-expiry",
+      "headRefName": "eliot1",
+      "headRefOid": "01ed18dd98405b3a2678a0479b942f4c4c5263a5",
+      "closedAt": "2024-01-10T18:22:22Z",
+      "mergedAt": "2024-01-10T18:22:21Z",
+      "mergedBy": "paulehoffman",
+      "mergeCommit": {
+        "oid": "e9dc5485c9c296af75989f4a428ae3b9e30e5753"
+      },
+      "comments": [
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "If I may suggest one change, where it reads:\r\n\r\n... \"are actually used\"; change to \"may be used.\u201d",
+          "createdAt": "2024-01-10T15:33:31Z",
+          "updatedAt": "2024-01-10T15:33:31Z"
+        },
+        {
+          "author": "paulehoffman",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Fixed. With that, are you OK with this PR?",
+          "createdAt": "2024-01-10T16:05:51Z",
+          "updatedAt": "2024-01-10T16:05:51Z"
+        },
+        {
+          "author": "elear",
+          "authorAssociation": "NONE",
+          "body": "Yes!  I still want to cover other ground outside of the Intro, but this is a good improvement.",
+          "createdAt": "2024-01-10T17:56:14Z",
+          "updatedAt": "2024-01-10T17:56:14Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDODRby885sBoaM",
+          "commit": {
+            "abbreviatedOid": "b490f0b"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "Seems reasonable.",
+          "createdAt": "2024-01-10T03:50:06Z",
+          "updatedAt": "2024-01-10T03:50:27Z",
+          "comments": [
+            {
+              "originalPosition": 19,
+              "body": "```suggestion\r\nExpired drafts are routinely cited and referenced in various contexts,\r\nsuch as in IANA registries, academic papers, and informational references in RFCs.\r\n```",
+              "createdAt": "2024-01-10T03:50:06Z",
+              "updatedAt": "2024-01-10T03:50:27Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "id": "PR_kwDODRby885jol8i",
+      "title": "Mention streams possibly having policies",
+      "url": "https://github.com/martinthomson/no-expiry/pull/18",
+      "state": "MERGED",
+      "author": "paulehoffman",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-01-10T01:20:37Z",
+      "updatedAt": "2024-01-10T18:25:55Z",
+      "baseRepository": "martinthomson/no-expiry",
+      "baseRefName": "main",
+      "baseRefOid": "43890031b3c485cb43fd5650b1f6426f8e1a5b49",
+      "headRepository": "martinthomson/no-expiry",
+      "headRefName": "eliot2",
+      "headRefOid": "36ffec231a2f44c67c75d341fa98e2b1b50cea43",
+      "closedAt": "2024-01-10T18:25:55Z",
+      "mergedAt": "2024-01-10T18:25:55Z",
+      "mergedBy": "paulehoffman",
+      "mergeCommit": {
+        "oid": "73a0788e067c4ea1af6b704712de565a650597d2"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDODRby885sBouP",
+          "commit": {
+            "abbreviatedOid": "80e42e5"
+          },
+          "author": "martinthomson",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "A tweak suggested, but the general sentiment is good.",
+          "createdAt": "2024-01-10T03:52:19Z",
+          "updatedAt": "2024-01-10T03:52:36Z",
+          "comments": [
+            {
+              "originalPosition": 4,
+              "body": "```suggestion\r\nfor allowing documents targeting different streams (see {{Section 5 of ?RFC 4844}}) to be subject to stream-specific policies,\r\n```",
+              "createdAt": "2024-01-10T03:52:19Z",
+              "updatedAt": "2024-01-10T03:52:36Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "id": "PR_kwDODRby885jpDrW",
+      "title": "Tweaks based on #16",
+      "url": "https://github.com/martinthomson/no-expiry/pull/19",
+      "state": "MERGED",
+      "author": "martinthomson",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Not 100% sure that the extra text is really necessary, but it seems like more text is the standard direction for anything like this.",
+      "createdAt": "2024-01-10T04:28:14Z",
+      "updatedAt": "2024-01-10T15:04:43Z",
+      "baseRepository": "martinthomson/no-expiry",
+      "baseRefName": "main",
+      "baseRefOid": "43890031b3c485cb43fd5650b1f6426f8e1a5b49",
+      "headRepository": "martinthomson/no-expiry",
+      "headRefName": "schinazi-tweaks",
+      "headRefOid": "ee67838252cdf1db407592ae13f281198033f599",
+      "closedAt": "2024-01-10T15:04:42Z",
+      "mergedAt": "2024-01-10T15:04:42Z",
+      "mergedBy": "paulehoffman",
+      "mergeCommit": {
+        "oid": "16bb8b61d5730becfbf10a67e5c9a5c5183a0849"
+      },
+      "comments": [
+        {
+          "author": "paulehoffman",
+          "authorAssociation": "COLLABORATOR",
+          "body": "For this case, \"more text\" is probably better because people make unwarranted assumptions about how drafts are referenced.",
+          "createdAt": "2024-01-10T15:04:38Z",
+          "updatedAt": "2024-01-10T15:04:38Z"
+        }
+      ],
       "reviews": []
     }
   ]
