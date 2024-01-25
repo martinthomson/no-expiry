@@ -74,7 +74,7 @@ Expired drafts are routinely cited and referenced in various contexts,
 such as in IANA registries, academic papers, and informational references in RFCs.
 Thus, statements about it being inappropriate to cite drafts
 can lead readers not familiar with IETF processes to misunderstand how old
-drafts may used in practice.
+drafts may be used in practice.
 
 This document does the following:
 
@@ -95,12 +95,11 @@ tooling without specifying how this is implemented.
 
 # No More Expiration and Automatic Removal
 
-The date of posting for an Internet-Draft is the best -- or perhaps only --
-information available that can be added to a document the time of publication
-that might help readers understand whether the content is valid.  Future events
-might invalidate the content virtually immediately; conversely, an
-Internet-Draft could also remain relevant for an arbitrarily long period of
-time.
+The day of posting for an Internet-Draft is the best -- or perhaps only -- date
+that can be added to a document that might help readers understand whether the
+content is valid in the future.  Future events might invalidate the content
+virtually immediately; conversely, an Internet-Draft could remain relevant for
+an arbitrarily long period of time.
 
 ## Changes to Existing RFCs and Guidelines
 
