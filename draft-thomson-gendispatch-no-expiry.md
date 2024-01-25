@@ -120,9 +120,7 @@ OLD:
 NEW:
 
 {:quote}
-> At any time, an
-> Internet-Draft may be replaced by a more recent version of the same
-> specification.
+> At any time, an Internet-Draft may be replaced by a more recent version.
 
 RFC 2418 {{!WG=RFC2418}} talks about header information in Internet-Drafts in
 Section <xref section="7.2" sectionFormat="bare" target="WG"/>.
