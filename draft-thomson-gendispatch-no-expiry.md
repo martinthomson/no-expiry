@@ -105,7 +105,9 @@ an arbitrarily long period of time.
 
 RFC 2026 {{!STD-PROCESS=RFC2026}} talks about removal of Internet-Drafts in
 the second paragraph of Section <xref section="2.2" sectionFormat="bare"
-target="STD-PROCESS"/>, which reads:
+target="STD-PROCESS"/>, which is amended as follows:
+
+OLD:
 
 {:quote}
 > An Internet-Draft that is published as an RFC, or that has remained
@@ -115,7 +117,7 @@ target="STD-PROCESS"/>, which reads:
 > Internet-Draft may be replaced by a more recent version of the same
 > specification, restarting the six-month timeout period.
 
-This paragraph is replaced with:
+NEW:
 
 {:quote}
 > At any time, an
