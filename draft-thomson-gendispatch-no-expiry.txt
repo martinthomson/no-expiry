@@ -6,7 +6,7 @@ General Area Dispatch                                         M. Thomson
 Internet-Draft                                                   Mozilla
 Updates: 2026, 2418 (if approved)                             P. Hoffman
 Intended status: Best Current Practice                             ICANN
-Expires: 21 July 2024                                    18 January 2024
+Expires: 28 July 2024                                    25 January 2024
 
 
             Removing Expiration Notices from Internet-Drafts
@@ -54,7 +54,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 21 July 2024.
+   This Internet-Draft will expire on 28 July 2024.
 
 Copyright Notice
 
@@ -76,7 +76,7 @@ Table of Contents
    2.  No More Expiration and Automatic Removal
      2.1.  Changes to Existing RFCs and Guidelines
      2.2.  Removing the Expires field from Internet-Drafts
-   3.  Active and Inactive Status for Internet-Drafts
+   3.  Active Markings for Internet-Drafts
      3.1.  Replacement Procedures
    4.  Referencing Internet-Drafts
    5.  Security and Privacy Considerations
@@ -185,24 +185,27 @@ Table of Contents
       or obsoleted at any time.  It is inappropriate to cite them other
       than as "work in progress."
 
-3.  Active and Inactive Status for Internet-Drafts
+3.  Active Markings for Internet-Drafts
 
    The tooling maintained by the IETF (such as the Datatracker) can mark
-   the latest version of a draft as "active" or "inactive".  When a new
-   version of a draft is published, it is immediately marked as
-   "active", and all earlier versions of that draft are marked as
-   "inactive".
+   a draft as "active".  Only the latest version of a draft can be
+   marked "active".  When a new version of a draft is published, it is
+   immediately marked as "active" and any older versions lose their
+   "active" marking.
 
-   Other reasons that a draft might be marked "active" or "inactive" are
-   open, but will be informed by the communities that use Internet-
-   Drafts.  Suggestions have already been made for automatically marking
-   drafts as "inactive" after a certain period of time, for allowing
+   Other reasons that a draft might be gain or lose an "active" marking
+   are open, but will be informed by the communities that use Internet-
+   Drafts.  Suggestions have already been made for automatically
+   removing the marking after a certain period of time, for allowing
    working group chairs to control the marking for working group drafts,
    for allowing documents targeting different streams (see Section 5 of
    [RFC8729]) to be subject to stream-specific policies, and for authors
-   being able to change the status of their draft, either to mark a
-   draft that has been overcome by events as "inactive" or mark a draft
-   as "active" when there is renewed interest.
+   being able to change the status of their draft, either to remove a
+   mark from a draft that has been overcome by events or mark a draft as
+   "active" when there is renewed interest.
+
+   The tooling will make it simple to limit views and searches to
+   include only "active" drafts.
 
 3.1.  Replacement Procedures
 
@@ -216,9 +219,8 @@ Table of Contents
    note in advance of planned sessions.  For instance, for an upcoming
    session N+1, a reminder might be issued for drafts that have not been
    updated in the interval between session N and session N+1, but were
-   updated between session N-1 and session N.  The "active" and
-   "inactive" markings can also be used nudge authors to update drafts
-   before a meeting.
+   updated between session N-1 and session N.  The "active" marking can
+   also be used nudge authors to update drafts before a meeting.
 
    People might choose to concentrate their efforts on drafts that have
    been recently updated.  With "active" and "inactive" markings, those
