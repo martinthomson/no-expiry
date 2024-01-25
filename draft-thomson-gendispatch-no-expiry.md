@@ -151,22 +151,24 @@ NEW:
   progress."
 
 
-# Active and Inactive Status for Internet-Drafts
+# Active Markings for Internet-Drafts
 
-The tooling maintained by the IETF (such as the Datatracker) can mark the latest
-version of a draft as "active" or "inactive".
-When a new version of a draft is published, it is immediately marked as "active",
-and all earlier versions of that draft are marked as "inactive".
+The tooling maintained by the IETF (such as the Datatracker) can mark a draft as "active".
+Only the latest version of a draft can be marked "active".
+When a new version of a draft is published, it is immediately marked as "active" and
+any older versions lose their "active" marking.
 
-Other reasons that a draft might be marked "active" or "inactive" are open,
+Other reasons that a draft might be gain or lose an "active" marking are open,
 but will be informed by the communities that use Internet-Drafts.
 Suggestions have already been made
-for automatically marking drafts as "inactive" after a certain period of time,
+for automatically removing the marking after a certain period of time,
 for allowing working group chairs to control the marking for working group drafts,
 for allowing documents targeting different streams (see {{Section 5 of ?RFC8729}}) to be subject to stream-specific policies,
 and for authors being able to change the status of their draft,
-either to mark a draft that has been overcome by events as "inactive"
+either to remove a mark from a draft that has been overcome by events
 or mark a draft as "active" when there is renewed interest.
+
+The tooling will make it simple to limit views and searches to include only "active" drafts.
 
 ## Replacement Procedures
 
@@ -179,7 +181,7 @@ Without expiration, a substitute might be to provide a note in advance of
 planned sessions.  For instance, for an upcoming session N+1, a reminder might
 be issued for drafts that have not been updated in the interval between session
 N and session N+1, but were updated between session N-1 and session N.
-The "active" and "inactive" markings can also be used nudge authors to update
+The "active" marking can also be used nudge authors to update
 drafts before a meeting.
 
 People might choose to concentrate their efforts on drafts that have been
