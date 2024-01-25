@@ -1,0 +1,283 @@
+
+
+
+
+General Area Dispatch                                         M. Thomson
+Internet-Draft                                                   Mozilla
+Updates: 2026, 2418 (if approved)                             P. Hoffman
+Intended status: Best Current Practice                             ICANN
+Expires: 28 July 2024                                    25 January 2024
+
+
+            Removing Expiration Notices from Internet-Drafts
+               draft-thomson-gendispatch-no-expiry-latest
+
+Abstract
+
+   The long-standing policy of requiring that Internet-Drafts bear an
+   expiration date is no longer necessary.  This document removes
+   requirements for expiration for Internet-Drafts from RFC 2026/BCP 9
+   and RFC 2418/BCP 25.  In place of expiration, this document
+   introduces Internet-Drafts being labeled "active" and "inactive" in
+   the IETF tooling.
+
+About This Document
+
+   This note is to be removed before publishing as an RFC.
+
+   The latest revision of this draft can be found at
+   https://martinthomson.github.io/no-expiry/draft-thomson-gendispatch-
+   no-expiry.html.  Status information for this document may be found at
+   https://datatracker.ietf.org/doc/draft-thomson-gendispatch-no-
+   expiry/.
+
+   Discussion of this document takes place on the General Area Dispatch
+   Working Group mailing list (mailto:gendispatch@ietf.org), which is
+   archived at https://mailarchive.ietf.org/arch/browse/gendispatch/.
+   Subscribe at https://www.ietf.org/mailman/listinfo/gendispatch/.
+
+   Source for this draft and an issue tracker can be found at
+   https://github.com/martinthomson/no-expiry.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 28 July 2024.
+
+Copyright Notice
+
+   Copyright (c) 2024 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.  Code Components
+   extracted from this document must include Revised BSD License text as
+   described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Revised BSD License.
+
+Table of Contents
+
+   1.  Introduction
+   2.  No More Expiration and Automatic Removal
+     2.1.  Changes to Existing RFCs and Guidelines
+     2.2.  Removing the Expires field from Internet-Drafts
+   3.  Active Markings for Internet-Drafts
+     3.1.  Replacement Procedures
+   4.  Referencing Internet-Drafts
+   5.  Security and Privacy Considerations
+   6.  IANA Considerations
+   7.  References
+     7.1.  Normative References
+     7.2.  Informative References
+   Authors' Addresses
+
+1.  Introduction
+
+   The Content Guidelines for Internet Drafts [IDCG] requires that
+   Internet-Drafts include an expiration statement.  Tooling and IETF
+   practice insist on Internet-Drafts including an expiry date 185 days
+   after their posting.  After this expiration date, some systems might
+   display an Internet-Draft differently or not at all, with some
+   exceptions, such as when the document is under IESG review.
+
+   Some people believe that automatic expiration prevents the use of an
+   Internet-Draft for reference purposes, so that they do not become
+   stable references in other work.  Some people believe that automatic
+   expiration encourages authors to update drafts that they wish to
+   discuss.  Originally, expired drafts were deleted from IETF servers
+   completely; more recently, expiration only causes the document to be
+   hidden from certain views or searches.
+
+   Copies of expired drafts are retained and can be obtained using other
+   services.  Expired drafts are routinely cited and referenced in
+   various contexts, such as in IANA registries, academic papers, and
+   informational references in RFCs.  Thus, statements about it being
+   inappropriate to cite drafts can lead readers not familiar with IETF
+   processes to misunderstand how old drafts may used in practice.
+
+   This document does the following:
+
+   *  Updates [STD-PROCESS] to eliminate the removal of an Internet-
+      Draft when the latest version is unchanged for more than six
+      months.
+
+   *  Updates [WG] to eliminate the inclusion of an expiration date in
+      Internet-Drafts.
+
+   *  Updates the Content Guidelines [IDCG] to remove references to
+      expiration.
+
+   *  Updates the boilerplate text for Internet-Drafts to no longer
+      include the "Expires:" field.
+
+   *  Introduces a status for Internet-Drafts which can be set to either
+      "active" or "inactive" in tooling without specifying how this is
+      implemented.
+
+2.  No More Expiration and Automatic Removal
+
+   The date of posting for an Internet-Draft is the best -- or perhaps
+   only -- information available that can be added to a document the
+   time of publication that might help readers understand whether the
+   content is valid.  Future events might invalidate the content
+   virtually immediately; conversely, an Internet-Draft could also
+   remain relevant for an arbitrarily long period of time.
+
+2.1.  Changes to Existing RFCs and Guidelines
+
+   RFC 2026 [STD-PROCESS] talks about removal of Internet-Drafts in the
+   second paragraph of Section 2.2, which reads:
+
+   |  An Internet-Draft that is published as an RFC, or that has
+   |  remained unchanged in the Internet-Drafts directory for more than
+   |  six months without being recommended by the IESG for publication
+   |  as an RFC, is simply removed from the Internet-Drafts directory.
+   |  At any time, an Internet-Draft may be replaced by a more recent
+   |  version of the same specification, restarting the six-month
+   |  timeout period.
+
+   This paragraph is replaced with:
+
+   |  At any time, an Internet-Draft may be replaced by a more recent
+   |  version of the same specification.
+
+   RFC 2418 [WG] talks about header information in Internet-Drafts in
+   Section 7.2.  The bullet point "- The expiration date for the I-D."
+   from that section is removed.
+
+   The Content Guidelines [IDCG] refers to boilerplate that will be
+   updated; see Section 2.2.  Content Guidelines also says "A statement
+   specifying the expiry date of the Internet-Draft."  This statement
+   and the description of how to specify the expiry date is removed.
+
+2.2.  Removing the Expires field from Internet-Drafts
+
+   This document specifies that the "Expires:" field be removed from the
+   header of submitted Internet-Drafts, and that the boilerplate be
+   amended as follows:
+
+   OLD:
+
+      Internet-Drafts are draft documents valid for a maximum of six
+      months and may be updated, replaced, or obsoleted by other
+      documents at any time.  It is inappropriate to use Internet-Drafts
+      as reference material or to cite them other than as "work in
+      progress."
+
+   NEW:
+
+      Internet-Drafts are draft documents that may be updated, replaced,
+      or obsoleted at any time.  It is inappropriate to cite them other
+      than as "work in progress."
+
+3.  Active Markings for Internet-Drafts
+
+   The tooling maintained by the IETF (such as the Datatracker) can mark
+   a draft as "active".  Only the latest version of a draft can be
+   marked "active".  When a new version of a draft is published, it is
+   immediately marked as "active" and any older versions lose their
+   "active" marking.
+
+   Other reasons that a draft might be gain or lose an "active" marking
+   are open, but will be informed by the communities that use Internet-
+   Drafts.  Suggestions have already been made for automatically
+   removing the marking after a certain period of time, for allowing
+   working group chairs to control the marking for working group drafts,
+   for allowing documents targeting different streams (see Section 5 of
+   [RFC8729]) to be subject to stream-specific policies, and for authors
+   being able to change the status of their draft, either to remove a
+   mark from a draft that has been overcome by events or mark a draft as
+   "active" when there is renewed interest.
+
+   The tooling will make it simple to limit views and searches to
+   include only "active" drafts.
+
+3.1.  Replacement Procedures
+
+   Originally, the expiration of a draft was intended to ensure that the
+   topic is disqualified from consideration.  Updating a draft before
+   expiration was intended to indicate continued interest from the
+   authors.
+
+   Expiration was also used as a reminder to authors to update
+   documents.  Without expiration, a substitute might be to provide a
+   note in advance of planned sessions.  For instance, for an upcoming
+   session N+1, a reminder might be issued for drafts that have not been
+   updated in the interval between session N and session N+1, but were
+   updated between session N-1 and session N.  The "active" marking can
+   also be used nudge authors to update drafts before a meeting.
+
+   People might choose to concentrate their efforts on drafts that have
+   been recently updated.  With "active" and "inactive" markings, those
+   people will have another indicator for which documents might be of
+   interest.
+
+4.  Referencing Internet-Drafts
+
+   Documents referencing Internet-Drafts should always include the two-
+   digit version number of the draft, unless there is a reason to refer
+   to the draft generically.  For instance, when producing an Internet-
+   Draft it can be convenient to refer to another draft generically,
+   where document production tools ensure that the final artifact refers
+   to the most recent version.
+
+   The IETF Datatracker service maintains a stable archive of most
+   Internet-Drafts that is accessible by version.  Using IETF
+   Datatracker URLs in references ensures the availability of the
+   referenced document.
+
+5.  Security and Privacy Considerations
+
+   This document has no direct implications on security or privacy.
+
+6.  IANA Considerations
+
+   This document makes no request of IANA.
+
+7.  References
+
+7.1.  Normative References
+
+   [IDCG]     "Content guidelines overview", 1 June 2022,
+              <https://authors.ietf.org/en/content-guidelines-overview>.
+
+   [STD-PROCESS]
+              Bradner, S., "The Internet Standards Process -- Revision
+              3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
+              <https://www.rfc-editor.org/rfc/rfc2026>.
+
+   [WG]       Bradner, S., "IETF Working Group Guidelines and
+              Procedures", BCP 25, RFC 2418, DOI 10.17487/RFC2418,
+              September 1998, <https://www.rfc-editor.org/rfc/rfc2418>.
+
+7.2.  Informative References
+
+   [RFC8729]  Housley, R., Ed. and L. Daigle, Ed., "The RFC Series and
+              RFC Editor", RFC 8729, DOI 10.17487/RFC8729, February
+              2020, <https://www.rfc-editor.org/rfc/rfc8729>.
+
+Authors' Addresses
+
+   Martin Thomson
+   Mozilla
+   Email: mt@lowentropy.net
+
+
+   Paul Hoffman
+   ICANN
+   Email: paul.hoffman@icann.org
