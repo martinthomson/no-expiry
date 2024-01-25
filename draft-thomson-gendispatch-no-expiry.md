@@ -74,7 +74,7 @@ Expired drafts are routinely cited and referenced in various contexts,
 such as in IANA registries, academic papers, and informational references in RFCs.
 Thus, statements about it being inappropriate to cite drafts
 can lead readers not familiar with IETF processes to misunderstand how old
-drafts may used in practice.
+drafts may be used in practice.
 
 This document does the following:
 
@@ -95,18 +95,19 @@ tooling without specifying how this is implemented.
 
 # No More Expiration and Automatic Removal
 
-The date of posting for an Internet-Draft is the best -- or perhaps only --
-information available that can be added to a document the time of publication
-that might help readers understand whether the content is valid.  Future events
-might invalidate the content virtually immediately; conversely, an
-Internet-Draft could also remain relevant for an arbitrarily long period of
-time.
+The day of posting for an Internet-Draft is the best -- or perhaps only -- date
+that can be added to a document that might help readers understand whether the
+content is valid in the future.  Future events might invalidate the content
+virtually immediately; conversely, an Internet-Draft could remain relevant for
+an arbitrarily long period of time.
 
 ## Changes to Existing RFCs and Guidelines
 
 RFC 2026 {{!STD-PROCESS=RFC2026}} talks about removal of Internet-Drafts in
 the second paragraph of Section <xref section="2.2" sectionFormat="bare"
-target="STD-PROCESS"/>, which reads:
+target="STD-PROCESS"/>, which is amended as follows:
+
+OLD:
 
 {:quote}
 > An Internet-Draft that is published as an RFC, or that has remained
@@ -116,12 +117,10 @@ target="STD-PROCESS"/>, which reads:
 > Internet-Draft may be replaced by a more recent version of the same
 > specification, restarting the six-month timeout period.
 
-This paragraph is replaced with:
+NEW:
 
 {:quote}
-> At any time, an
-> Internet-Draft may be replaced by a more recent version of the same
-> specification.
+> At any time, an Internet-Draft may be replaced by a more recent version.
 
 RFC 2418 {{!WG=RFC2418}} talks about header information in Internet-Drafts in
 Section <xref section="7.2" sectionFormat="bare" target="WG"/>.
